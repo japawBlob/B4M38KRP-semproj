@@ -113,14 +113,14 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  keyBoardHIDsub.MODIFIER=0x02;  // To press shift key
+	  //keyBoardHIDsub.MODIFIER=0x02;  // To press shift key
 	  keyBoardHIDsub.KEYCODE1=0x04;  // Press A key
 	  keyBoardHIDsub.KEYCODE2=0x05;  // Press B key
 	  keyBoardHIDsub.KEYCODE3=0x06;  // Press C key
 	  keyBoardHIDsub.KEYCODE4=0x80;	 // Volume up - only works on linux
 	  USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
 	  HAL_Delay(50); 		       // Press all key for 50 milliseconds
-	  keyBoardHIDsub.MODIFIER=0x00;  // To release shift key
+	  //keyBoardHIDsub.MODIFIER=0x00;  // To release shift key
 	  keyBoardHIDsub.KEYCODE1=0x00;  // Release A key
 	  keyBoardHIDsub.KEYCODE2=0x00;  // Release B key
 	  keyBoardHIDsub.KEYCODE3=0x00;  // Release C key

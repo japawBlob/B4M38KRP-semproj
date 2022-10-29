@@ -253,6 +253,22 @@ __ALIGN_BEGIN static uint8_t HID_MOUSE_ReportDesc[HID_MOUSE_REPORT_DESC_SIZE] __
     0xc0                           // END_COLLECTION
 };
 
+__ALIGN_BEGIN static uint8_t HID_media_controll[HID_MOUSE_REPORT_DESC_SIZE] __ALIGN_END =
+{
+		0x05, 0x0C,      // Usage Page (Consumer)
+		0x09, 0x01,      // Usage(Consumer Control)
+		0xA1, 0x01,      // Collection(Application )
+		0x85, 0x01,      // Report ID (1)
+		0x15, 0x00,      // Logical Minimum(0x0 )
+		0x25, 0x01,      // Logical Maximum(0x1 )
+		0x09, 0xE2,      // Usage(play back Mute)       //1
+		0x09, 0xE9,      // Usage(Volume Increment)     //2
+		0x09, 0xB5,      // Usage(Scan Next Track)      //4
+		0x09, 0xEA,      // Usage(Volume Decrement)     //8
+		0x09, 0xB6,      // Usage(Scan Previous Track)  //10
+		0x09, 0xCD,      // Usage(Play/Pause)           //20
+};
+
 static uint8_t HIDInEpAdd = HID_EPIN_ADDR;
 
 /**

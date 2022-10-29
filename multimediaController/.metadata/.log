@@ -284,3 +284,22 @@ java.lang.Exception: Resource '/usb_device' does not exist.
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-10-28 17:17:23.057
 !MESSAGE Indexed 'usb_device' (31 sources, 122 headers) in 4,8 sec: 10 494 declarations; 40 868 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0,29 %)
+!SESSION 2022-10-29 19:46:56.528 -----------------------------------------------
+eclipse.buildId=Version 1.10.1
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-29 19:47:13.446
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-29 19:47:13.598
+!MESSAGE Log4j initialized with config file C:\Users\Public\B4M38KRP-semproj\multimediaController\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-29 19:47:24.344
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-29 19:47:31.580
+!MESSAGE Indexed 'usb_device' (31 sources, 122 headers) in 6,42 sec: 10 494 declarations; 40 864 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0,29 %)
