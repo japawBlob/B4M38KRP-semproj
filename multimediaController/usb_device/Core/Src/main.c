@@ -41,27 +41,10 @@ extern USBD_HandleTypeDef hUsbDeviceFS;
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+TIM_HandleTypeDef htim3;
 
 /* USER CODE BEGIN PV */
-
-/* USER CODE END PV */
-
-/* Private function prototypes -----------------------------------------------*/
-void SystemClock_Config(void);
-static void MX_GPIO_Init(void);
-/* USER CODE BEGIN PFP */
-
-/* USER CODE END PFP */
-
-/* Private user code ---------------------------------------------------------*/
-/* USER CODE BEGIN 0 */
-
-/* USER CODE END 0 */
-
-/**
-  * @brief  The application entry point.
-  * @retval int
-  */
+extern USBD_HandleTypeDef hUsbDeviceFS;
 
 typedef struct
 {
@@ -76,7 +59,66 @@ typedef struct
 }subKeyBoard;
 
 subKeyBoard keyBoardHIDsub = {0,0,0,0,0,0,0,0};
+/* USER CODE END PV */
 
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+static void MX_TIM3_Init(void);
+/* USER CODE BEGIN PFP */
+
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+//int rot_cnt = 0;
+//uint8_t rot_new_state = 0;
+//uint8_t rot_old_state = 0;
+//
+//uint16_t rot_a_pin = 4;
+//uint16_t rot_b_pin = 5;
+//
+//uint8_t rot_get_state() {
+//	return (uint8_t)((HAL_GPIO_ReadPin(GPIOB, rot_b_pin) << 1)
+//                | (HAL_GPIO_ReadPin(GPIOB, rot_a_pin)));
+//}
+//
+//// External interrupts from rotary encoder
+//void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
+//	if (GPIO_Pin == rot_a_pin || GPIO_Pin == rot_b_pin) {
+//
+//		rot_new_state = rot_get_state();
+//
+//		// DBG("%d:%d", rot_old_state, rot_new_state);
+//
+//		// Check transition
+//		if (rot_old_state == 3 && rot_new_state == 2) {        // 3 -> 2 transition
+//			rot_cnt++;
+//		} else if (rot_old_state == 2 && rot_new_state == 0) { // 2 -> 0 transition
+//			rot_cnt++;
+//		} else if (rot_old_state == 0 && rot_new_state == 1) { // 0 -> 1 transition
+//			rot_cnt++;
+//		} else if (rot_old_state == 1 && rot_new_state == 3) { // 1 -> 3 transition
+//			rot_cnt++;
+//		} else if (rot_old_state == 3 && rot_new_state == 1) { // 3 -> 1 transition
+//			rot_cnt--;
+//		} else if (rot_old_state == 1 && rot_new_state == 0) { // 1 -> 0 transition
+//			rot_cnt--;
+//		} else if (rot_old_state == 0 && rot_new_state == 2) { // 0 -> 2 transition
+//			rot_cnt--;
+//		} else if (rot_old_state == 2 && rot_new_state == 3) { // 2 -> 3 transition
+//			rot_cnt--;
+//		}
+//
+//		rot_old_state = rot_new_state;
+//	}
+//}
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
 int main(void)
 {
   /* USER CODE BEGIN 1 */
@@ -102,8 +144,13 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USB_DEVICE_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_TIM_Encoder_Start_IT(&htim3, TIM_CHANNEL_ALL);
+  uint32_t last_print = 0, now = 0;
+  uint32_t rot_count = 0;
+  now = HAL_GetTick();
+  TIM3->CNT = 30000;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -113,20 +160,49 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  //keyBoardHIDsub.MODIFIER=0x02;  // To press shift key
-	  keyBoardHIDsub.KEYCODE1=0x04;  // Press A key
-	  keyBoardHIDsub.KEYCODE2=0x05;  // Press B key
-	  keyBoardHIDsub.KEYCODE3=0x06;  // Press C key
-	  keyBoardHIDsub.KEYCODE4=0x80;	 // Volume up - only works on linux
-	  USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-	  HAL_Delay(50); 		       // Press all key for 50 milliseconds
-	  //keyBoardHIDsub.MODIFIER=0x00;  // To release shift key
-	  keyBoardHIDsub.KEYCODE1=0x00;  // Release A key
-	  keyBoardHIDsub.KEYCODE2=0x00;  // Release B key
-	  keyBoardHIDsub.KEYCODE3=0x00;  // Release C key
-	  keyBoardHIDsub.KEYCODE4=0x00;	 // Clear buffer from volume up
-	  USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-	  HAL_Delay(1000); 	       // Repeat this task on every 1 second
+	  now = HAL_GetTick();
+	  //if (now - last_print >= 100) {
+		  // DBG("Encoder counter = %lu", TIM3->CNT);
+		  if (rot_count != TIM3->CNT) {
+			  	  if (rot_count > TIM3->CNT) {
+			  		  keyBoardHIDsub.KEYCODE1=0x04;  // Press A key
+					  keyBoardHIDsub.KEYCODE2=0x05;  // Press B key
+					  keyBoardHIDsub.KEYCODE3=0x06;  // Press C key
+					  keyBoardHIDsub.KEYCODE4=0x80;	 // Volume up - only works on linux
+			  	  } else {
+			  		  keyBoardHIDsub.KEYCODE1=0x07;  // Press A key
+					  keyBoardHIDsub.KEYCODE2=0x08;  // Press B key
+					  keyBoardHIDsub.KEYCODE3=0x09;  // Press C key
+					  keyBoardHIDsub.KEYCODE4=0x81;	 // Volume down - only works on linux
+			  	  }
+			  	  USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+			  	  HAL_Delay(20); 		       // Press all key for 50 milliseconds
+			  	  //keyBoardHIDsub.MODIFIER=0x00;  // To release shift key
+			  	  keyBoardHIDsub.KEYCODE1=0x00;  // Release A key
+			  	  keyBoardHIDsub.KEYCODE2=0x00;  // Release B key
+			  	  keyBoardHIDsub.KEYCODE3=0x00;  // Release C key
+			  	  keyBoardHIDsub.KEYCODE4=0x00;	 // Clear buffer from volume up
+			  	  USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+			  	  rot_count = TIM3->CNT;
+		  }
+		  last_print = now;
+	  //}
+	  if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) == 0){
+		  	  //keyBoardHIDsub.MODIFIER=0x02;  // To press shift key
+		  	  keyBoardHIDsub.KEYCODE1=0x04;  // Press A key
+		  	  keyBoardHIDsub.KEYCODE2=0x05;  // Press B key
+		  	  keyBoardHIDsub.KEYCODE3=0x06;  // Press C key
+		  	  keyBoardHIDsub.KEYCODE4=0x80;	 // Volume up - only works on linux
+		  	  USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+		  	  HAL_Delay(50); 		       // Press all key for 50 milliseconds
+		  	  //keyBoardHIDsub.MODIFIER=0x00;  // To release shift key
+		  	  keyBoardHIDsub.KEYCODE1=0x00;  // Release A key
+		  	  keyBoardHIDsub.KEYCODE2=0x00;  // Release B key
+		  	  keyBoardHIDsub.KEYCODE3=0x00;  // Release C key
+		  	  keyBoardHIDsub.KEYCODE4=0x00;	 // Clear buffer from volume up
+		  	  USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+		  	  HAL_Delay(1000); 	       // Repeat this task on every 1 second
+	  }
   }
   /* USER CODE END 3 */
 }
@@ -177,16 +253,73 @@ void SystemClock_Config(void)
 }
 
 /**
+  * @brief TIM3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM3_Init(void)
+{
+
+  /* USER CODE BEGIN TIM3_Init 0 */
+
+  /* USER CODE END TIM3_Init 0 */
+
+  TIM_Encoder_InitTypeDef sConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM3_Init 1 */
+
+  /* USER CODE END TIM3_Init 1 */
+  htim3.Instance = TIM3;
+  htim3.Init.Prescaler = 0;
+  htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim3.Init.Period = 65535;
+  htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  sConfig.EncoderMode = TIM_ENCODERMODE_TI1;
+  sConfig.IC1Polarity = TIM_ICPOLARITY_RISING;
+  sConfig.IC1Selection = TIM_ICSELECTION_DIRECTTI;
+  sConfig.IC1Prescaler = TIM_ICPSC_DIV1;
+  sConfig.IC1Filter = 0;
+  sConfig.IC2Polarity = TIM_ICPOLARITY_RISING;
+  sConfig.IC2Selection = TIM_ICSELECTION_DIRECTTI;
+  sConfig.IC2Prescaler = TIM_ICPSC_DIV1;
+  sConfig.IC2Filter = 0;
+  if (HAL_TIM_Encoder_Init(&htim3, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim3, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM3_Init 2 */
+
+  /* USER CODE END TIM3_Init 2 */
+
+}
+
+/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
   */
 static void MX_GPIO_Init(void)
 {
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
 
   /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOB_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOH_CLK_ENABLE();
+
+  /*Configure GPIO pin : PB6 */
+  GPIO_InitStruct.Pin = GPIO_PIN_6;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
 
