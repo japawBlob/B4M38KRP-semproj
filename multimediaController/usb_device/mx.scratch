@@ -91,6 +91,9 @@
         <sourceEntry>
           <name>Middlewares</name>
         </sourceEntry>
+        <sourceEntry>
+          <name>DISPLAY</name>
+        </sourceEntry>
       </sourceEntries>
       <Groups />
     </Project>

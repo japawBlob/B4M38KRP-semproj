@@ -1,57 +1,10 @@
-21:11:53 **** Incremental Build of configuration Debug for project usb_device ****
+14:53:50 **** Build of configuration Debug for project usb_device ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:178:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  178 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:185:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  185 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:196:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  196 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:203:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  203 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:150:12: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
-  150 |   uint32_t last_print = 0, now = 0;
-      |            ^~~~~~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
 arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
    text	   data	    bss	    dec	    hex	filename
   29168	    280	   4208	  33656	   8378	usb_device.elf
 Finished building: default.size.stdout
  
-Finished building: usb_device.list
- 
 
-21:11:54 Build Finished. 0 errors, 5 warnings. (took 802ms)
+14:53:50 Build Finished. 0 errors, 0 warnings. (took 593ms)
 

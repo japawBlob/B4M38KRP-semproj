@@ -1,639 +1,85 @@
-20:44:32 **** Incremental Build of configuration Debug for project usb_device ****
+14:48:57 **** Build of configuration Debug for project STM324xG_EVAL ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:169:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  169 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:176:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  176 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Utilities/Log/lcd_log.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/Utilities/lcd_log.d" -MT"Example/Utilities/lcd_log.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/Utilities/lcd_log.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/eeprom.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/eeprom.d" -MT"Example/User/eeprom.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/eeprom.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/joystick.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/joystick.d" -MT"Example/User/joystick.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/joystick.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/lcd.d" -MT"Example/User/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/lcd.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/log.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/log.d" -MT"Example/User/log.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/log.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/main.d" -MT"Example/User/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/main.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/sd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/sd.d" -MT"Example/User/sd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/sd.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/stm32f4xx_it.d" -MT"Example/User/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/stm32f4xx_it.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/touchscreen.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/touchscreen.d" -MT"Example/User/touchscreen.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/touchscreen.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/ts_calibration.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/ts_calibration.d" -MT"Example/User/ts_calibration.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/ts_calibration.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Example/SW4STM32/startup_stm32f407xx.d" -MT"Example/SW4STM32/startup_stm32f407xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/SW4STM32/startup_stm32f407xx.o" "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/SW4STM32/startup_stm32f407xx.s"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dcmi.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dcmi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dcmi.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sd.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sd.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sram.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sram.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sram.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_fsmc.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_fsmc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_fsmc.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_sdmmc.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_sdmmc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_sdmmc.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/CMSIS/system_stm32f4xx.d" -MT"Drivers/CMSIS/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/system_stm32f4xx.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/Components/ili9325/ili9325.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/Components/ili9325.d" -MT"Drivers/BSP/Components/ili9325.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Components/ili9325.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/Components/stmpe811/stmpe811.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/Components/stmpe811.d" -MT"Drivers/BSP/Components/stmpe811.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Components/stmpe811.o"
+arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/SW4STM32/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"syscalls.d" -MT"syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "syscalls.o"
+arm-none-eabi-gcc -o "STM324xG_EVAL.elf" @"objects.list"   -mcpu=cortex-m4 -T"../STM32F407IGHx_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM324xG_EVAL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM324xG_EVAL.elf
  
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
+arm-none-eabi-size   STM324xG_EVAL.elf 
+arm-none-eabi-objdump -h -S  STM324xG_EVAL.elf  > "STM324xG_EVAL.list"
+arm-none-eabi-objcopy  -O binary  STM324xG_EVAL.elf  "STM324xG_EVAL.bin"
    text	   data	    bss	    dec	    hex	filename
-  28980	    280	   4208	  33468	   82bc	usb_device.elf
+  57052	    712	  22928	  80692	  13b34	STM324xG_EVAL.elf
 Finished building: default.size.stdout
  
-Finished building: usb_device.list
+Finished building: STM324xG_EVAL.bin
  
-20:44:36 **** Incremental Build of configuration Debug for project usb_device ****
+Finished building: STM324xG_EVAL.list
+ 
+14:53:27 **** Incremental Build of configuration Debug for project STM324xG_EVAL ****
 make -j8 all 
-arm-none-eabi-size   usb_device.elf 
+arm-none-eabi-size   STM324xG_EVAL.elf 
    text	   data	    bss	    dec	    hex	filename
-  28980	    280	   4208	  33468	   82bc	usb_device.elf
+  57052	    712	  22928	  80692	  13b34	STM324xG_EVAL.elf
 Finished building: default.size.stdout
  
-20:49:34 **** Incremental Build of configuration Debug for project usb_device ****
+14:53:35 **** Incremental Build of configuration Debug for project STM324xG_EVAL ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:170:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  170 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:177:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  177 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:187:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  187 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:194:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  194 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
+arm-none-eabi-size   STM324xG_EVAL.elf 
    text	   data	    bss	    dec	    hex	filename
-  29132	    280	   4208	  33620	   8354	usb_device.elf
+  57052	    712	  22928	  80692	  13b34	STM324xG_EVAL.elf
 Finished building: default.size.stdout
  
-Finished building: usb_device.list
- 
-20:50:23 **** Incremental Build of configuration Debug for project usb_device ****
+14:53:49 **** Incremental Build of configuration Debug for project STM324xG_EVAL ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:170:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  170 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:177:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  177 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:187:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  187 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:194:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  194 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
+arm-none-eabi-size   STM324xG_EVAL.elf 
    text	   data	    bss	    dec	    hex	filename
-  29068	    280	   4208	  33556	   8314	usb_device.elf
+  57052	    712	  22928	  80692	  13b34	STM324xG_EVAL.elf
 Finished building: default.size.stdout
  
-Finished building: usb_device.list
- 
-20:52:12 **** Incremental Build of configuration Debug for project usb_device ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:170:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  170 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:177:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  177 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:187:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  187 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:194:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  194 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
-   text	   data	    bss	    dec	    hex	filename
-  29132	    280	   4208	  33620	   8354	usb_device.elf
-Finished building: default.size.stdout
- 
-Finished building: usb_device.list
- 
-20:52:49 **** Incremental Build of configuration Debug for project usb_device ****
+14:53:50 **** Build of configuration Debug for project usb_device ****
 make -j8 all 
 arm-none-eabi-size   usb_device.elf 
-   text	   data	    bss	    dec	    hex	filename
-  29132	    280	   4208	  33620	   8354	usb_device.elf
-Finished building: default.size.stdout
- 
-20:54:27 **** Incremental Build of configuration Debug for project usb_device ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:171:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  171 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:178:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  178 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:188:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  188 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:195:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  195 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:150:12: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
-  150 |   uint32_t last_print = 0, now = 0;
-      |            ^~~~~~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
-   text	   data	    bss	    dec	    hex	filename
-  29124	    280	   4208	  33612	   834c	usb_device.elf
-Finished building: default.size.stdout
- 
-Finished building: usb_device.list
- 
-20:55:37 **** Incremental Build of configuration Debug for project usb_device ****
-make -j8 all 
-arm-none-eabi-size   usb_device.elf 
-   text	   data	    bss	    dec	    hex	filename
-  29124	    280	   4208	  33612	   834c	usb_device.elf
-Finished building: default.size.stdout
- 
-20:57:36 **** Incremental Build of configuration Debug for project usb_device ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:171:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  171 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:178:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  178 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:188:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  188 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:195:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  195 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:150:12: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
-  150 |   uint32_t last_print = 0, now = 0;
-      |            ^~~~~~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
-   text	   data	    bss	    dec	    hex	filename
-  29124	    280	   4208	  33612	   834c	usb_device.elf
-Finished building: default.size.stdout
- 
-Finished building: usb_device.list
- 
-21:03:42 **** Incremental Build of configuration Debug for project usb_device ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:178:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  178 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:185:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  185 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:196:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  196 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:203:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  203 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:150:12: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
-  150 |   uint32_t last_print = 0, now = 0;
-      |            ^~~~~~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
    text	   data	    bss	    dec	    hex	filename
   29168	    280	   4208	  33656	   8378	usb_device.elf
 Finished building: default.size.stdout
  
-Finished building: usb_device.list
- 
-21:06:04 **** Incremental Build of configuration Debug for project usb_device ****
+14:54:39 **** Incremental Build of configuration Debug for project STM324xG_EVAL ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:178:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  178 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:185:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  185 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:196:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  196 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:203:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  203 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:150:12: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
-  150 |   uint32_t last_print = 0, now = 0;
-      |            ^~~~~~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
+arm-none-eabi-size   STM324xG_EVAL.elf 
    text	   data	    bss	    dec	    hex	filename
-  29168	    280	   4208	  33656	   8378	usb_device.elf
+  57052	    712	  22928	  80692	  13b34	STM324xG_EVAL.elf
 Finished building: default.size.stdout
- 
-Finished building: usb_device.list
- 
-21:07:00 **** Incremental Build of configuration Debug for project usb_device ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:178:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  178 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:185:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  185 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:196:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  196 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:203:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  203 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:150:12: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
-  150 |   uint32_t last_print = 0, now = 0;
-      |            ^~~~~~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
-   text	   data	    bss	    dec	    hex	filename
-  29168	    280	   4208	  33656	   8378	usb_device.elf
-Finished building: default.size.stdout
- 
-Finished building: usb_device.list
- 
-21:07:32 **** Incremental Build of configuration Debug for project usb_device ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:178:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  178 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:185:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  185 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:196:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  196 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:203:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  203 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:150:12: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
-  150 |   uint32_t last_print = 0, now = 0;
-      |            ^~~~~~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
-   text	   data	    bss	    dec	    hex	filename
-  29168	    280	   4208	  33656	   8378	usb_device.elf
-Finished building: default.size.stdout
- 
-Finished building: usb_device.list
- 
-21:09:31 **** Incremental Build of configuration Debug for project usb_device ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:178:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  178 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:185:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  185 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:196:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  196 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:203:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  203 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:150:12: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
-  150 |   uint32_t last_print = 0, now = 0;
-      |            ^~~~~~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
-   text	   data	    bss	    dec	    hex	filename
-  29168	    280	   4208	  33656	   8378	usb_device.elf
-Finished building: default.size.stdout
- 
-Finished building: usb_device.list
- 
-21:11:53 **** Incremental Build of configuration Debug for project usb_device ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:178:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  178 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:185:43: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  185 |         USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                           ^~~~~~~~~~~~~~~
-      |                                           |
-      |                                           subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:196:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  196 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:203:42: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  203 |        USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-      |                                          ^~~~~~~~~~~~~~~
-      |                                          |
-      |                                          subKeyBoard *
-In file included from ../Core/Src/main.c:25:
-../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h:137:64: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'subKeyBoard *'
-  137 | uint8_t USBD_HID_SendReport(USBD_HandleTypeDef *pdev, uint8_t *report, uint16_t len);
-      |                                                       ~~~~~~~~~^~~~~~
-../Core/Src/main.c:150:12: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
-  150 |   uint32_t last_print = 0, now = 0;
-      |            ^~~~~~~~~~
-arm-none-eabi-gcc -o "usb_device.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_device.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: usb_device.elf
- 
-arm-none-eabi-size   usb_device.elf 
-arm-none-eabi-objdump -h -S  usb_device.elf  > "usb_device.list"
-   text	   data	    bss	    dec	    hex	filename
-  29168	    280	   4208	  33656	   8378	usb_device.elf
-Finished building: default.size.stdout
- 
-Finished building: usb_device.list
  

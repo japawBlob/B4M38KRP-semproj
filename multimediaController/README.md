@@ -9,4 +9,4 @@ UBS HID 1.11 28.
 Pins used for rotary encoder:
 B5 - CLK
 B4 - DATA
-B6 - CLOCK
+B6 - SW
