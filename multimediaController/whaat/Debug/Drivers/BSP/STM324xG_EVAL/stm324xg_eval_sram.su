@@ -1,0 +1,7 @@
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c:85:9:BSP_SRAM_Init	8	static
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c:132:9:BSP_SRAM_ReadData	24	static
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c:151:9:BSP_SRAM_ReadData_DMA	24	static
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c:170:9:BSP_SRAM_WriteData	24	static
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c:189:9:BSP_SRAM_WriteData_DMA	24	static
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c:204:6:BSP_SRAM_DMA_IRQHandler	8	static
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sram.c:212:13:BSP_SRAM_MspInit	56	static
