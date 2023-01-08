@@ -2607,3 +2607,1246 @@
 2023-01-07 17:14:21,578 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.instructionSet.1411453420 uses a null category that is invalid in its context. The option was ignored.
 2023-01-07 17:14:21,586 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.fpu.447100997 uses a null category that is invalid in its context. The option was ignored.
 2023-01-07 17:14:21,598 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.floatabi.1365204623 uses a null category that is invalid in its context. The option was ignored.
+2023-01-07 17:14:51,909 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-01-07 17:14:51,912 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-01-07 17:14:51,915 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-01-07 17:42:06,213 [INFO] McuFinderGlobals:44 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-01-07 17:42:06,785 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420
+2023-01-07 17:42:06,829 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/mcu/
+2023-01-07 17:42:06,831 [INFO] ApiDb:269 - Set plugin database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/boardmanager/
+2023-01-07 17:42:06,835 [WARN] ApiDb:254 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/mcufinder/images/
+2023-01-07 17:42:06,882 [INFO] ApiDb:249 - Set database path to: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-07 17:42:06,887 [INFO] DbMcusAds:124 - Set database path to: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-07 17:42:06,896 [INFO] CrossReferenceDbSqlite:201 - Set database path to: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-01-07 17:42:07,151 [INFO] RulesReader:61 - Compatibility file has been processed (282 Rules)
+2023-01-07 17:42:07,336 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/mcu/
+2023-01-07 17:42:07,337 [INFO] ApiDb:269 - Set plugin database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/boardmanager/
+2023-01-07 17:42:07,338 [INFO] ApiDb:256 - Set plugin images path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/mcufinder/images/
+2023-01-07 17:42:07,339 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder/ => C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder
+2023-01-07 17:42:07,339 [INFO] ApiDb:249 - Set database path to: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-07 17:42:07,340 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder/ => C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder
+2023-01-07 17:42:07,340 [INFO] DbMcusAds:124 - Set database path to: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-07 17:42:07,342 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder/ => C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder
+2023-01-07 17:42:07,343 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder/ => C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder
+2023-01-07 17:42:07,343 [INFO] CrossReferenceDbSqlite:201 - Set database path to: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-01-07 17:42:07,509 [INFO] MainPanel:242 - HeapMemory: 285212672
+2023-01-07 17:42:07,708 [INFO] DbMcusXml:77 - Set database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/mcu/
+2023-01-07 17:42:07,709 [INFO] ApiDb:269 - Set plugin database path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/boardmanager/
+2023-01-07 17:42:07,709 [INFO] ApiDb:256 - Set plugin images path to: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\/plugins/mcufinder/images/
+2023-01-07 17:42:07,710 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder/ => C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder
+2023-01-07 17:42:07,710 [INFO] ApiDb:249 - Set database path to: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-07 17:42:07,711 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder/ => C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder
+2023-01-07 17:42:07,711 [INFO] DbMcusAds:124 - Set database path to: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder//mcu/
+2023-01-07 17:42:07,711 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder/ => C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder
+2023-01-07 17:42:07,712 [WARN] DbFile:40 - Overriding database path with different value: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder/ => C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder
+2023-01-07 17:42:07,712 [INFO] CrossReferenceDbSqlite:201 - Set database path to: C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-01-07 17:42:07,749 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420
+2023-01-07 17:42:07,753 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2023-01-07 17:42:07,757 [INFO] PluginManage:307 - Check plugin analytics
+2023-01-07 17:42:08,086 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: STM32CubeMX.6.6.1
+2023-01-07 17:42:08,088 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2023-01-07 17:42:08,089 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: FW.F4.1.27.0
+2023-01-07 17:42:08,107 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-01-07 17:42:08,108 [INFO] PluginManage:307 - Check plugin cadmodel
+2023-01-07 17:42:08,115 [ERROR] ConfigurationRetriever:140 - IOException on connection: sw-center.st.com
+2023-01-07 17:42:08,117 [ERROR] ConfigurationRetriever:140 - IOException on connection: sw-center.st.com
+2023-01-07 17:42:08,118 [ERROR] ConfigurationRetriever:140 - IOException on connection: sw-center.st.com
+2023-01-07 17:42:08,136 [INFO] CADModel:65 - Init CAD model plugin
+2023-01-07 17:42:08,137 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-01-07 17:42:08,138 [INFO] PluginManage:307 - Check plugin clock
+2023-01-07 17:42:08,174 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2023-01-07 17:42:08,174 [INFO] PluginManage:307 - Check plugin ddr
+2023-01-07 17:42:08,180 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-01-07 17:42:08,181 [INFO] PluginManage:307 - Check plugin filemanager
+2023-01-07 17:42:08,507 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-01-07 17:42:08,507 [INFO] PluginManage:307 - Check plugin ipmanager
+2023-01-07 17:42:08,524 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-01-07 17:42:08,524 [INFO] PluginManage:307 - Check plugin lpbam
+2023-01-07 17:42:08,559 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-01-07 17:42:08,559 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2023-01-07 17:42:08,593 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-01-07 17:42:08,594 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2023-01-07 17:42:08,671 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-01-07 17:42:08,671 [INFO] PluginManage:307 - Check plugin power
+2023-01-07 17:42:08,714 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2023-01-07 17:42:08,715 [INFO] PluginManage:307 - Check plugin projectmanager
+2023-01-07 17:42:08,756 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-01-07 17:42:08,757 [INFO] PluginManage:307 - Check plugin thirdparty
+2023-01-07 17:42:09,202 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2023-01-07 17:42:09,202 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-01-07 17:42:09,203 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2023-01-07 17:42:09,203 [INFO] PluginManage:307 - Check plugin tools
+2023-01-07 17:42:09,206 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-01-07 17:42:09,247 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2023-01-07 17:42:09,248 [INFO] PluginManage:307 - Check plugin tutovideos
+2023-01-07 17:42:09,694 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-01-07 17:42:09,695 [INFO] PluginManage:307 - Check plugin updater
+2023-01-07 17:42:09,719 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2023-01-07 17:42:09,720 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2023-01-07 17:42:10,236 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2023-01-07 17:42:10,364 [INFO] CADModel:98 - CPN selected for project level
+2023-01-07 17:42:10,409 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,410 [INFO] PluginManager:217 - loadIPPluginJar : add adc
+2023-01-07 17:42:10,461 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,462 [INFO] PluginManager:217 - loadIPPluginJar : add aes
+2023-01-07 17:42:10,523 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,523 [INFO] PluginManager:217 - loadIPPluginJar : add can
+2023-01-07 17:42:10,557 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,558 [INFO] PluginManager:217 - loadIPPluginJar : add comp
+2023-01-07 17:42:10,622 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,623 [INFO] PluginManager:217 - loadIPPluginJar : add cryp
+2023-01-07 17:42:10,667 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,667 [INFO] PluginManager:217 - loadIPPluginJar : add dfsdm
+2023-01-07 17:42:10,691 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,692 [INFO] PluginManager:217 - loadIPPluginJar : add dma
+2023-01-07 17:42:10,756 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,757 [INFO] PluginManager:217 - loadIPPluginJar : add dma3
+2023-01-07 17:42:10,792 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,793 [INFO] PluginManager:217 - loadIPPluginJar : add fatfs
+2023-01-07 17:42:10,905 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,905 [INFO] PluginManager:217 - loadIPPluginJar : add fmc
+2023-01-07 17:42:10,932 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,933 [INFO] PluginManager:217 - loadIPPluginJar : add freertos
+2023-01-07 17:42:10,972 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:10,973 [INFO] PluginManager:217 - loadIPPluginJar : add genericplugin
+2023-01-07 17:42:11,135 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:11,135 [INFO] PluginManager:217 - loadIPPluginJar : add gfxmmu
+2023-01-07 17:42:11,387 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:11,389 [INFO] PluginManager:217 - loadIPPluginJar : add gic
+2023-01-07 17:42:11,424 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:11,425 [INFO] PluginManager:217 - loadIPPluginJar : add gpio
+2023-01-07 17:42:11,575 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:11,575 [INFO] PluginManager:217 - loadIPPluginJar : add gtzc
+2023-01-07 17:42:11,640 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:11,641 [INFO] PluginManager:217 - loadIPPluginJar : add hash
+2023-01-07 17:42:11,716 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:11,716 [INFO] PluginManager:217 - loadIPPluginJar : add i2c
+2023-01-07 17:42:11,775 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:11,776 [INFO] PluginManager:217 - loadIPPluginJar : add i2s
+2023-01-07 17:42:11,984 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:11,984 [INFO] PluginManager:217 - loadIPPluginJar : add ipddr
+2023-01-07 17:42:12,123 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,124 [INFO] PluginManager:217 - loadIPPluginJar : add linkedlist
+2023-01-07 17:42:12,174 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,174 [INFO] PluginManager:217 - loadIPPluginJar : add lorawan
+2023-01-07 17:42:12,210 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2023-01-07 17:42:12,229 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,230 [INFO] PluginManager:217 - loadIPPluginJar : add ltdc
+2023-01-07 17:42:12,257 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,259 [INFO] PluginManager:217 - loadIPPluginJar : add mdma
+2023-01-07 17:42:12,286 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,287 [INFO] PluginManager:217 - loadIPPluginJar : add nvic
+2023-01-07 17:42:12,352 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,353 [INFO] PluginManager:217 - loadIPPluginJar : add opamp
+2023-01-07 17:42:12,492 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,493 [INFO] PluginManager:217 - loadIPPluginJar : add openamp
+2023-01-07 17:42:12,576 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,577 [INFO] PluginManager:217 - loadIPPluginJar : add pdm2pcm
+2023-01-07 17:42:12,608 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,617 [INFO] PluginManager:217 - loadIPPluginJar : add plateformsettings
+2023-01-07 17:42:12,660 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,661 [INFO] PluginManager:217 - loadIPPluginJar : add quadspi
+2023-01-07 17:42:12,685 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,685 [INFO] PluginManager:217 - loadIPPluginJar : add resmgrutility
+2023-01-07 17:42:12,781 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,781 [INFO] PluginManager:217 - loadIPPluginJar : add sai
+2023-01-07 17:42:12,858 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,859 [INFO] PluginManager:217 - loadIPPluginJar : add spi
+2023-01-07 17:42:12,946 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,947 [INFO] PluginManager:217 - loadIPPluginJar : add stm32_wpan
+2023-01-07 17:42:12,990 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:12,990 [INFO] PluginManager:217 - loadIPPluginJar : add tim
+2023-01-07 17:42:13,087 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:13,088 [INFO] PluginManager:217 - loadIPPluginJar : add touchsensing
+2023-01-07 17:42:13,133 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:13,133 [INFO] PluginManager:217 - loadIPPluginJar : add tracer_emb
+2023-01-07 17:42:13,175 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:13,176 [INFO] PluginManager:217 - loadIPPluginJar : add ts
+2023-01-07 17:42:13,223 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:13,224 [INFO] PluginManager:217 - loadIPPluginJar : add tsc
+2023-01-07 17:42:13,266 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:13,267 [INFO] PluginManager:217 - loadIPPluginJar : add ucpd
+2023-01-07 17:42:13,359 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:13,360 [INFO] PluginManager:217 - loadIPPluginJar : add usart
+2023-01-07 17:42:13,447 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:13,448 [INFO] PluginManager:217 - loadIPPluginJar : add usbx
+2023-01-07 17:42:13,985 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-07 17:42:14,273 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-07 17:42:14,298 [INFO] DbMcusAds:52 - JSON generation date=Thu Sep 30 08:55:09 CEST 2021 (1632984909377)
+2023-01-07 17:42:14,299 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-07 17:42:14,436 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-01-07 17:42:14,680 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-07 17:42:14,686 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-07 17:42:14,686 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-07 17:42:14,687 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-01-07 17:42:14,689 [FATAL] Updater:301 - Updater called before beeing initialized
+2023-01-07 17:42:14,817 [ERROR] Updater:1105 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-01-07 17:42:14,835 [INFO] Updater:1041 - Updater Version found : 6.6.1
+2023-01-07 17:42:14,872 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420
+2023-01-07 17:42:15,042 [ERROR] ServerAccessManage:1147 - Warning during Server Connexion :  Unknown host sw-center.st.com
+2023-01-07 17:42:15,051 [INFO] MainUpdater:2768 - connection check result : 22
+2023-01-07 17:42:15,052 [INFO] MainUpdater:280 - Updater Check For Update Now.
+2023-01-07 17:42:15,054 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2023-01-07 17:42:15,221 [WARN] MainUpdater:1184 - Updater busy. Cannot search thirdparties
+2023-01-07 17:42:15,222 [INFO] ThirdPartyUpdaterWithRetryManager:96 - Updater plugin is busy. [1/15]
+2023-01-07 17:42:15,293 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-01-07 17:42:15,318 [ERROR] ServerAccessManage:1147 - Warning during Server Connexion :  Unknown host sw-center.st.com
+2023-01-07 17:42:15,320 [INFO] MainUpdater:2768 - connection check result : 22
+2023-01-07 17:42:15,333 [ERROR] ServerAccessManage:1147 - Warning during Server Connexion :  Unknown host sw-center.st.com
+2023-01-07 17:42:15,335 [INFO] MainUpdater:2768 - connection check result : 22
+2023-01-07 17:42:18,565 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2023-01-07 17:42:18,638 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-01-07 17:42:18,682 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.2.0
+2023-01-07 17:42:18,773 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-01-07 17:42:18,809 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.3
+2023-01-07 17:42:18,834 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2023-01-07 17:42:18,859 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.5
+2023-01-07 17:42:18,889 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.4
+2023-01-07 17:42:18,939 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.1.0
+2023-01-07 17:42:18,995 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.5.1
+2023-01-07 17:42:19,022 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2023-01-07 17:42:19,126 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.3.0
+2023-01-07 17:42:19,399 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2023-01-07 17:42:19,425 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.2.0
+2023-01-07 17:42:19,471 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2023-01-07 17:42:19,529 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2023-01-07 17:42:19,568 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.2.0
+2023-01-07 17:42:19,614 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.2.0
+2023-01-07 17:42:19,743 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.0.0
+2023-01-07 17:42:19,766 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.0.0
+2023-01-07 17:42:19,785 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-01-07 17:42:19,816 [WARN] PackLoader:242 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2023-01-07 17:42:19,868 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.1.0
+2023-01-07 17:42:19,899 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.0
+2023-01-07 17:42:19,921 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.0.0
+2023-01-07 17:42:19,995 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.4.0
+2023-01-07 17:42:20,185 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.3.0
+2023-01-07 17:42:20,207 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2023-01-07 17:42:20,253 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2023-01-07 17:42:20,301 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2023-01-07 17:42:20,330 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2023-01-07 17:42:20,432 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.2.1
+2023-01-07 17:42:20,524 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.1
+2023-01-07 17:42:20,546 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.3.0
+2023-01-07 17:42:20,618 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2023-01-07 17:42:20,654 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2023-01-07 17:42:20,722 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2023-01-07 17:42:20,753 [WARN] PackLoader:242 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.2
+2023-01-07 17:42:20,774 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.20.0
+2023-01-07 17:42:20,805 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2023-01-07 17:42:20,830 [WARN] PackLoader:242 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2023-01-07 17:42:20,845 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2023-01-07 17:42:20,899 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2023-01-07 17:42:20,961 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.0.0
+2023-01-07 17:42:20,986 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.1
+2023-01-07 17:42:20,989 [INFO] ThirdParty:929 - Integrity check success = true
+2023-01-07 17:42:20,989 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2023-01-07 17:42:20,989 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2023-01-07 17:42:35,964 [INFO] MainUpdater:2768 - connection check result : 10
+2023-01-07 17:42:36,240 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-01-07 17:42:36,241 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2023-01-07 17:42:36,242 [WARN] ThirdParty:827 - waiting for thirdparty lock release [close project]
+2023-01-07 17:42:36,243 [INFO] ThirdParty:829 - entering critical section [close project]
+2023-01-07 17:42:36,244 [INFO] ThirdParty:839 - exiting critical section [close project]
+2023-01-07 17:42:36,251 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2023-01-07 17:42:36,261 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 219885560 Bytes (285212672)
+2023-01-07 17:42:36,275 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-01-07 17:42:36,276 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2023-01-07 17:42:36,276 [INFO] OpenFileManager:307 - Change cursor
+2023-01-07 17:42:36,345 [INFO] Mcu:1922 - Initializing MCU STM32F407I(E-G)Hx STM32F407IGHx STM32F407IGH6
+2023-01-07 17:42:40,487 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-01-07 17:42:41,647 [WARN] ApiManager:308 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2023-01-07 17:42:41,648 [WARN] ApiManager:308 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2023-01-07 17:42:41,648 [WARN] ApiManager:308 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2023-01-07 17:42:41,859 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.4.0: no header file found
+2023-01-07 17:42:41,859 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.4.0: no header file found
+2023-01-07 17:42:41,859 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.4.0: no header file found
+2023-01-07 17:42:41,880 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.3: no header file found
+2023-01-07 17:42:41,882 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.4: no header file found
+2023-01-07 17:42:41,893 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-01-07 17:42:41,894 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-01-07 17:42:41,894 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-01-07 17:42:41,895 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-01-07 17:42:41,895 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-01-07 17:42:41,912 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2023-01-07 17:42:41,912 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2023-01-07 17:42:41,912 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2023-01-07 17:42:41,927 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.5: no header file found
+2023-01-07 17:42:41,929 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.4: no header file found
+2023-01-07 17:42:41,948 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,948 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,948 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,949 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,949 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,949 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,949 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,949 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,949 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,949 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,950 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,950 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,950 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,951 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,951 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,951 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,951 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,952 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,952 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,952 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,952 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,952 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,953 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,953 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,953 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,953 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,953 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,954 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,954 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,954 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,954 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,954 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,954 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-01-07 17:42:41,959 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.0: no header file found
+2023-01-07 17:42:42,140 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2023-01-07 17:42:42,140 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2023-01-07 17:42:42,140 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2023-01-07 17:42:42,146 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-07 17:42:42,146 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-07 17:42:42,146 [WARN] ApiManager:308 - Cannot register API 'Board Extension:PGEEZ1' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-07 17:42:42,146 [WARN] ApiManager:308 - Cannot register API 'Board Part:M24' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-07 17:42:42,146 [WARN] ApiManager:308 - Cannot register API 'Board Part:M95' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-07 17:42:42,146 [WARN] ApiManager:308 - Cannot register API 'Board Part:M95P32' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-07 17:42:42,146 [WARN] ApiManager:308 - Cannot register API 'PGEEZ1:SPI' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-07 17:42:42,146 [WARN] ApiManager:308 - Cannot register API 'PGEEZ1:QDSPI' from pack STMicroelectronics.X-CUBE-EEPRMA1.4.1.0: no header file found
+2023-01-07 17:42:42,151 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2023-01-07 17:42:42,152 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2023-01-07 17:42:42,153 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2023-01-07 17:42:42,153 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2023-01-07 17:42:42,153 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2023-01-07 17:42:42,154 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.3.0: no header file found
+2023-01-07 17:42:42,189 [INFO] ThirdPartyModel:289 - Start build external matchings
+2023-01-07 17:42:42,821 [INFO] ThirdPartyModel:302 - End build external matchings
+2023-01-07 17:42:42,900 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Parameter (FLatency) has Id (AdvancedSettings) currently not set
+2023-01-07 17:42:42,903 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Parameter (PWR_Regulator_Voltage_Scale) has Id (AdvancedSettings) currently not set
+2023-01-07 17:42:42,904 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (12500000)
+2023-01-07 17:42:43,821 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 174846272 Bytes (382730240)
+2023-01-07 17:42:44,035 [INFO] ApiDb:576 - Connected to CubeFinder SQLite database (C:\Users\JakubJíra\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2023-01-07 17:42:45,024 [INFO] ApiDb:663 - CubeFinder database Data Model version=2.1
+2023-01-07 17:42:45,024 [INFO] ApiDb:664 - CubeFinder database Configuration version=3.0.35
+2023-01-07 17:42:45,025 [INFO] ApiDb:665 - CubeFinder database generation date=2022-12-20 (1671519758)
+2023-01-07 17:42:45,025 [INFO] ApiDb:666 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V1.1.1, STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WBA_V0.2.0, STM32Cube_FW_WB_V1.15.0, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V1.3.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-NFC4_V2.0.5, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-01-07 17:42:49,506 [INFO] ApiDb:239 - Found 138 in-development CPN: [B-WB1M-WPAN1, NUCLEO-C031C6, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6]
+2023-01-07 17:42:49,515 [INFO] DbMcus:215 - Found 3580 MCUs, 3580 are supported
+2023-01-07 17:42:49,522 [INFO] ApiDb:418 - Load user favorites file C:\Users\JakubJíra/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-01-07 17:42:49,522 [INFO] ApiDb:422 - User favorites MCUs=[]
+2023-01-07 17:42:49,523 [INFO] DbMcus:221 - Set 0 / 0 favorites MCUs
+2023-01-07 17:42:49,943 [WARN] ThirdParty:789 - waiting for thirdparty lock release [change project]
+2023-01-07 17:42:49,943 [INFO] ThirdParty:791 - entering critical section [change project]
+2023-01-07 17:42:49,944 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-01-07 17:42:49,944 [INFO] ThirdParty:981 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-01-07 17:42:49,944 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-01-07 17:42:49,944 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2023-01-07 17:42:49,944 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-01-07 17:42:49,944 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-01-07 17:42:49,944 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-01-07 17:42:49,944 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.0
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.0.0
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.2.0
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-01-07 17:42:49,945 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-01-07 17:42:49,946 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-01-07 17:42:49,946 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-01-07 17:42:49,946 [INFO] ThirdParty:981 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.1
+2023-01-07 17:42:49,946 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-01-07 17:42:49,947 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.5
+2023-01-07 17:42:49,947 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.4
+2023-01-07 17:42:49,947 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-01-07 17:42:49,947 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-01-07 17:42:49,947 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-01-07 17:42:49,947 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-01-07 17:42:49,947 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.1.0
+2023-01-07 17:42:49,947 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2023-01-07 17:42:49,948 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-01-07 17:42:49,948 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-01-07 17:42:49,948 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-01-07 17:42:49,948 [INFO] ThirdParty:981 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.1
+2023-01-07 17:42:49,948 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-01-07 17:42:49,948 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-01-07 17:42:49,948 [INFO] ThirdParty:981 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2023-01-07 17:42:49,948 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2023-01-07 17:42:49,948 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-01-07 17:42:49,949 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-01-07 17:42:49,949 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-01-07 17:42:49,949 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.3.0
+2023-01-07 17:42:49,949 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-01-07 17:42:49,949 [INFO] ThirdParty:981 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-01-07 17:42:49,949 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-01-07 17:42:49,949 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.2.0
+2023-01-07 17:42:49,949 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-01-07 17:42:49,950 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-01-07 17:42:49,950 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2023-01-07 17:42:49,950 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-01-07 17:42:49,950 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2023-01-07 17:42:49,950 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-01-07 17:42:49,950 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-01-07 17:42:49,950 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-01-07 17:42:49,951 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-01-07 17:42:49,951 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2023-01-07 17:42:49,951 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-01-07 17:42:49,951 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-01-07 17:42:49,951 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-01-07 17:42:49,951 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.0.0
+2023-01-07 17:42:49,951 [INFO] ThirdParty:797 - exiting critical section [change project]
+2023-01-07 17:42:50,932 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2023-01-07 17:42:50,934 [INFO] PinOutPanel:1468 - setPackage(STM32F407IGHx,UFBGA176)
+2023-01-07 17:42:52,104 [INFO] UtilMem:74 - Before build in PCC Used Memory: 222511616 Bytes (382730240)
+2023-01-07 17:42:53,563 [INFO] UtilMem:74 - After build in PCC Used Memory: 260780928 Bytes (382730240)
+2023-01-07 17:42:53,729 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2023-01-07 17:42:53,793 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,794 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,794 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,794 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,794 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,794 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,795 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,795 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,795 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,796 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,796 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,796 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,796 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,796 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,796 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,796 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,797 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,797 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,798 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,799 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,799 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,800 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,800 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,801 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,801 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,801 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,801 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,802 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,802 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,802 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,802 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,803 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,804 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,804 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,804 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,804 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,805 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,805 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,805 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,806 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,806 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,806 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,807 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,807 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,807 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,808 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,809 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,810 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,810 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,811 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,811 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,811 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,812 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,812 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,813 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,814 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,814 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,815 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 17:42:53,851 [INFO] ApiDbMcu:505 - Load IP Config File for PDM2PCM
+2023-01-07 17:42:54,301 [INFO] OpenFileManager:327 - Restore cursor
+2023-01-07 17:44:48,981 [INFO] Gpio:272 - dependency for GPIO [RCC, SYS, TIM3, USB_OTG_FS]
+2023-01-07 17:44:58,817 [INFO] Gpio:272 - dependency for GPIO [RCC, SYS, TIM3, USB_OTG_FS]
+2023-01-07 17:44:59,025 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-07 17:46:35,655 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-07 17:46:47,719 [INFO] Gpio:272 - dependency for GPIO [RCC, SYS, TIM3, USB_OTG_FS]
+2023-01-07 18:01:03,646 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-01-07 18:04:00,527 [INFO] Gpio:272 - dependency for GPIO [RCC, SYS, TIM3, USB_OTG_FS]
+2023-01-07 19:59:03,409 [INFO] ServerAccessManage:474 - Download File STMicroelectronics.X-CUBE-DISPLAY.2.2.0.pack
+2023-01-07 19:59:09,131 [INFO] AnalyticsPlugin:363 - Accepted License(s): [STMicroelectronics.X-CUBE-DISPLAY.2.2.0]
+2023-01-07 19:59:09,137 [INFO] FileExtend:239 - Unzip File : STMicroelectronics.X-CUBE-DISPLAY.2.2.0.pack
+2023-01-07 19:59:09,138 [INFO] FileExtend:254 - Standard Zip Deflate
+2023-01-07 19:59:15,082 [INFO] LoadServerPackagesThread:190 - End of LoadServerPackages Thread
+2023-01-07 19:59:15,173 [WARN] ThirdParty:497 - waiting for thirdparty lock release [add software pack]
+2023-01-07 19:59:15,173 [INFO] ThirdParty:499 - entering critical section [add software pack]
+2023-01-07 19:59:15,354 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] [ThirdParty] unknown protocol: c
+2023-01-07 19:59:15,354 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.2.0
+2023-01-07 19:59:15,394 [INFO] ThirdPartyModel:289 - Start build external matchings
+2023-01-07 19:59:16,113 [INFO] ThirdPartyModel:302 - End build external matchings
+2023-01-07 19:59:16,246 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-01-07 19:59:16,246 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-01-07 19:59:16,246 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-01-07 19:59:16,247 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2023-01-07 19:59:16,247 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-01-07 19:59:16,247 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-01-07 19:59:16,247 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-01-07 19:59:16,247 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-01-07 19:59:16,247 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.0
+2023-01-07 19:59:16,247 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.0.0
+2023-01-07 19:59:16,247 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.2.0
+2023-01-07 19:59:16,248 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-01-07 19:59:16,248 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.4.0
+2023-01-07 19:59:16,248 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-01-07 19:59:16,248 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2023-01-07 19:59:16,248 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2023-01-07 19:59:16,248 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-01-07 19:59:16,248 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-01-07 19:59:16,248 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-01-07 19:59:16,248 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-01-07 19:59:16,248 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-01-07 19:59:16,249 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-01-07 19:59:16,249 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-01-07 19:59:16,249 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.1
+2023-01-07 19:59:16,249 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-01-07 19:59:16,249 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.5
+2023-01-07 19:59:16,250 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.4
+2023-01-07 19:59:16,250 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-01-07 19:59:16,250 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-01-07 19:59:16,250 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-01-07 19:59:16,251 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-01-07 19:59:16,251 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.1.0
+2023-01-07 19:59:16,251 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.3.0
+2023-01-07 19:59:16,251 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-01-07 19:59:16,251 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-01-07 19:59:16,251 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-01-07 19:59:16,251 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.1
+2023-01-07 19:59:16,252 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-01-07 19:59:16,252 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-01-07 19:59:16,252 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2023-01-07 19:59:16,252 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2023-01-07 19:59:16,252 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-01-07 19:59:16,252 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-01-07 19:59:16,253 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-01-07 19:59:16,253 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.3.0
+2023-01-07 19:59:16,253 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-01-07 19:59:16,253 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-01-07 19:59:16,253 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-01-07 19:59:16,253 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.2.0
+2023-01-07 19:59:16,253 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-01-07 19:59:16,253 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-01-07 19:59:16,253 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2023-01-07 19:59:16,254 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-01-07 19:59:16,254 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2023-01-07 19:59:16,254 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-01-07 19:59:16,254 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-01-07 19:59:16,254 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-01-07 19:59:16,254 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-01-07 19:59:16,254 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2023-01-07 19:59:16,255 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-01-07 19:59:16,255 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-01-07 19:59:16,255 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-01-07 19:59:16,255 [INFO] ThirdPartyPackRequestProcessor:607 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.0.0
+2023-01-07 19:59:16,255 [INFO] ThirdParty:502 - exiting critical section [add software pack]
+2023-01-07 19:59:16,256 [INFO] LoadServerUpdatesThread:367 - End of LoadServerUpdate Thread
+2023-01-07 19:59:16,529 [INFO] ThirdPartyModel:289 - Start build external matchings
+2023-01-07 19:59:16,597 [INFO] MainUpdater:1588 - ProgressBar Return now
+2023-01-07 19:59:17,406 [INFO] ThirdPartyModel:302 - End build external matchings
+2023-01-07 19:59:17,491 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-01-07 19:59:36,457 [INFO] ApiDbMcu:505 - Load IP Config File for STMicroelectronics.X-CUBE-DISPLAY.2.2.0
+2023-01-07 19:59:37,149 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-01-07 20:00:35,068 [INFO] ServerAccessManage:474 - Download File STMicroelectronics.X-CUBE-GNSS1.6.0.0.pack
+2023-01-07 20:00:35,970 [ERROR] ServerAccessManage:652 - User Cancel Download : STMicroelectronics.X-CUBE-GNSS1.6.0.0.pack.
+2023-01-07 20:00:36,084 [INFO] LoadServerPackagesThread:190 - End of LoadServerPackages Thread
+2023-01-07 20:00:36,091 [INFO] MainUpdater:1588 - ProgressBar Return now
+2023-01-07 20:00:36,091 [ERROR] AbstractThirdPartyUpdaterManager:156 - task #25: error #11
+2023-01-07 20:00:36,422 [INFO] ThirdPartyModel:289 - Start build external matchings
+2023-01-07 20:00:37,086 [INFO] ThirdPartyModel:302 - End build external matchings
+2023-01-07 20:00:37,258 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-01-07 20:00:49,278 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-01-07 20:01:27,388 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 371401704 Bytes (552599552)
+2023-01-07 20:01:28,956 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 406531048 Bytes (552599552)
+2023-01-07 20:01:31,512 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 275600464 Bytes (552599552)
+2023-01-07 20:01:32,932 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: TIM1_8
+2023-01-07 20:01:32,933 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USB_DEVICE
+2023-01-07 20:01:32,933 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2023-01-07 20:01:32,933 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2023-01-07 20:01:32,933 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USB_OTG_FS
+2023-01-07 20:01:32,933 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2023-01-07 20:01:32,935 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2023-01-07 20:01:32,938 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2023-01-07 20:01:33,690 [INFO] IP:3347 - RTE Config file name : RTE_Component
+2023-01-07 20:01:33,691 [INFO] IP:3365 - RTE template : RTE_Components.ftl
+2023-01-07 20:01:33,819 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\license.tmp_save
+2023-01-07 20:01:34,586 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\license.tmp
+2023-01-07 20:01:34,809 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\gpio.tmp_save
+2023-01-07 20:01:35,044 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\gpio.tmp
+2023-01-07 20:01:35,159 [WARN] IPConfigManager:2910 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-01-07 20:01:35,205 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-01-07 20:01:35,392 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-01-07 20:01:35,410 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-01-07 20:01:35,549 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-01-07 20:01:35,576 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-01-07 20:01:35,776 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-01-07 20:01:35,796 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-01-07 20:01:35,978 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-01-07 20:01:36,354 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-07 20:01:36,394 [INFO] Middleware:1435 - No code input for Bsp Dependency
+2023-01-07 20:01:36,471 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\App\usb_device.c_save
+2023-01-07 20:01:36,691 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\App\usb_device.c
+2023-01-07 20:01:36,713 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\App\usb_device.h_save
+2023-01-07 20:01:36,873 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\App\usb_device.h
+2023-01-07 20:01:36,901 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\Target\usbd_conf.h_save
+2023-01-07 20:01:37,061 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\Target\usbd_conf.h
+2023-01-07 20:01:37,101 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\Target\usbd_conf.c_save
+2023-01-07 20:01:37,295 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\Target\usbd_conf.c
+2023-01-07 20:01:37,328 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\App\usbd_desc.h_save
+2023-01-07 20:01:37,513 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\App\usbd_desc.h
+2023-01-07 20:01:37,547 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\App\usbd_desc.c_save
+2023-01-07 20:01:37,723 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\USB_DEVICE\App\usbd_desc.c
+2023-01-07 20:01:37,791 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Src\stm32f4xx_it.c_save
+2023-01-07 20:01:38,023 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Src\stm32f4xx_it.c
+2023-01-07 20:01:38,046 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Inc\stm32f4xx_it.h_save
+2023-01-07 20:01:38,206 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Inc\stm32f4xx_it.h
+2023-01-07 20:01:38,275 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Src\stm32f4xx_hal_msp.c_save
+2023-01-07 20:01:38,623 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Src\stm32f4xx_hal_msp.c
+2023-01-07 20:01:38,645 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\system.tmp_save
+2023-01-07 20:01:38,855 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\MXTmpFiles\system.tmp
+2023-01-07 20:01:38,919 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Inc\stm32f4xx_hal_conf.h_save
+2023-01-07 20:01:39,101 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Inc\stm32f4xx_hal_conf.h
+2023-01-07 20:01:39,181 [WARN] IPConfigManager:3348 - IP not found : TIM
+2023-01-07 20:01:39,183 [WARN] CodeGenerator:3567 - IP not found : null
+2023-01-07 20:01:39,242 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Inc\main.h_save
+2023-01-07 20:01:39,416 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Inc\main.h
+2023-01-07 20:01:39,450 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Src\main.c_save
+2023-01-07 20:01:39,717 [INFO] CodeEngine:269 - Generated code: C:\Users\Public\B4M38KRP-semproj\multimediaController\usb_device\Core\Src\main.c
+2023-01-07 20:01:42,391 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 1692mS.
+2023-01-07 20:01:42,427 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2023-01-07 20:01:43,090 [INFO] ConfigFileManager:1394 - The Die is : DIE413
+2023-01-07 20:01:43,108 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2023-01-07 20:01:43,126 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2023-01-07 20:01:43,142 [INFO] ApiDbMcu:505 - Load IP Config File for LIBJPEG
+2023-01-07 20:01:43,168 [INFO] ApiDbMcu:505 - Load IP Config File for LWIP
+2023-01-07 20:01:43,192 [INFO] ApiDbMcu:505 - Load IP Config File for MBEDTLS
+2023-01-07 20:01:43,215 [INFO] ApiDbMcu:505 - Load IP Config File for USB_HOST
+2023-01-07 20:01:44,565 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Jan 07, 2023 8:01:44 PM com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager$3 onCommandEntered
+2023-01-07 20:01:44,566 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SEVERE: null
+2023-01-07 20:01:44,570 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] org.jdom.input.JDOMParseException: Error on line 9 of document file:/C:/Users/Public/B4M38KRP-semproj/multimediaController/usb_device/mx.scratch: Invalid byte 2 of 3-byte UTF-8 sequence.
+2023-01-07 20:01:44,571 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:530)
+2023-01-07 20:01:44,572 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:905)
+2023-01-07 20:01:44,574 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:884)
+2023-01-07 20:01:44,576 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.deleteEmptyGroups(ConfigFileManager.java:7081)
+2023-01-07 20:01:44,578 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.deleteEmptyGroups(ConfigFileManager.java:7105)
+2023-01-07 20:01:44,581 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.createTmpFile(ConfigFileManager.java:2167)
+2023-01-07 20:01:44,583 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createToolChainFolders(ProjectBuilder.java:4240)
+2023-01-07 20:01:44,586 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:921)
+2023-01-07 20:01:44,588 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:563)
+2023-01-07 20:01:44,590 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager.startGenerateCode(MainProjectManager.java:1399)
+2023-01-07 20:01:44,593 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager$3.onCommandEntered(MainProjectManager.java:238)
+2023-01-07 20:01:44,594 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.components.util.CommandLineManager$3.run(CommandLineManager.java:168)
+2023-01-07 20:01:44,596 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:303)
+2023-01-07 20:01:44,597 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2023-01-07 20:01:44,599 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2023-01-07 20:01:44,600 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2023-01-07 20:01:44,602 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2023-01-07 20:01:44,604 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2023-01-07 20:01:44,606 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2023-01-07 20:01:44,608 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2023-01-07 20:01:44,610 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2023-01-07 20:01:44,612 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2023-01-07 20:01:44,614 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2023-01-07 20:01:44,616 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2023-01-07 20:01:44,618 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-01-07 20:01:44,622 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Caused by: org.xml.sax.SAXParseException; systemId: file:/C:/Users/Public/B4M38KRP-semproj/multimediaController/usb_device/mx.scratch; lineNumber: 9; columnNumber: 32; Invalid byte 2 of 3-byte UTF-8 sequence.
+2023-01-07 20:01:44,624 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+2023-01-07 20:01:44,627 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+2023-01-07 20:01:44,629 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+2023-01-07 20:01:44,632 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:306)
+2023-01-07 20:01:44,635 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3085)
+2023-01-07 20:01:44,638 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+2023-01-07 20:01:44,640 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+2023-01-07 20:01:44,642 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+2023-01-07 20:01:44,645 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+2023-01-07 20:01:44,647 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+2023-01-07 20:01:44,649 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+2023-01-07 20:01:44,651 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+2023-01-07 20:01:44,653 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+2023-01-07 20:01:44,654 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+2023-01-07 20:01:44,655 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	... 24 more
+2023-01-07 20:01:44,657 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Caused by: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 3-byte UTF-8 sequence.
+2023-01-07 20:01:44,659 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:702)
+2023-01-07 20:01:44,661 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:409)
+2023-01-07 20:01:44,664 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1699)
+2023-01-07 20:01:44,668 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipChar(XMLEntityScanner.java:1375)
+2023-01-07 20:01:44,672 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2746)
+2023-01-07 20:01:44,672 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	... 33 more
+2023-01-07 20:01:44,676 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Caused by: org.xml.sax.SAXParseException; systemId: file:/C:/Users/Public/B4M38KRP-semproj/multimediaController/usb_device/mx.scratch; lineNumber: 9; columnNumber: 32; Invalid byte 2 of 3-byte UTF-8 sequence.
+2023-01-07 20:01:44,679 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+2023-01-07 20:01:44,681 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+2023-01-07 20:01:44,683 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+2023-01-07 20:01:44,685 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:306)
+2023-01-07 20:01:44,688 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3085)
+2023-01-07 20:01:44,690 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+2023-01-07 20:01:44,692 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+2023-01-07 20:01:44,694 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+2023-01-07 20:01:44,696 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+2023-01-07 20:01:44,698 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+2023-01-07 20:01:44,700 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+2023-01-07 20:01:44,702 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+2023-01-07 20:01:44,792 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+2023-01-07 20:01:44,794 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+2023-01-07 20:01:44,795 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:905)
+2023-01-07 20:01:44,796 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:884)
+2023-01-07 20:01:44,799 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.deleteEmptyGroups(ConfigFileManager.java:7081)
+2023-01-07 20:01:44,802 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.deleteEmptyGroups(ConfigFileManager.java:7105)
+2023-01-07 20:01:44,804 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.createTmpFile(ConfigFileManager.java:2167)
+2023-01-07 20:01:44,806 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createToolChainFolders(ProjectBuilder.java:4240)
+2023-01-07 20:01:44,808 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:921)
+2023-01-07 20:01:44,810 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:563)
+2023-01-07 20:01:44,812 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager.startGenerateCode(MainProjectManager.java:1399)
+2023-01-07 20:01:44,814 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager$3.onCommandEntered(MainProjectManager.java:238)
+2023-01-07 20:01:44,816 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.components.util.CommandLineManager$3.run(CommandLineManager.java:168)
+2023-01-07 20:01:44,820 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:303)
+2023-01-07 20:01:44,821 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2023-01-07 20:01:44,823 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2023-01-07 20:01:44,824 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2023-01-07 20:01:44,825 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2023-01-07 20:01:44,827 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2023-01-07 20:01:44,828 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2023-01-07 20:01:44,830 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2023-01-07 20:01:44,832 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2023-01-07 20:01:44,834 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2023-01-07 20:01:44,835 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2023-01-07 20:01:44,837 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2023-01-07 20:01:44,838 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-01-07 20:01:44,840 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Caused by: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 3-byte UTF-8 sequence.
+2023-01-07 20:01:44,842 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:702)
+2023-01-07 20:01:44,844 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:409)
+2023-01-07 20:01:44,846 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1699)
+2023-01-07 20:01:44,848 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipChar(XMLEntityScanner.java:1375)
+2023-01-07 20:01:44,850 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2746)
+2023-01-07 20:01:44,851 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	... 33 more
+2023-01-07 20:01:44,853 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Caused by: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 3-byte UTF-8 sequence.
+2023-01-07 20:01:44,855 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:702)
+2023-01-07 20:01:44,856 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:409)
+2023-01-07 20:01:44,858 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1699)
+2023-01-07 20:01:44,860 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipChar(XMLEntityScanner.java:1375)
+2023-01-07 20:01:44,862 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2746)
+2023-01-07 20:01:44,864 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+2023-01-07 20:01:44,867 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+2023-01-07 20:01:44,869 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+2023-01-07 20:01:44,871 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+2023-01-07 20:01:44,873 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+2023-01-07 20:01:44,874 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+2023-01-07 20:01:44,876 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+2023-01-07 20:01:44,878 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+2023-01-07 20:01:44,879 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:518)
+2023-01-07 20:01:44,880 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:905)
+2023-01-07 20:01:44,881 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at org.jdom.input.SAXBuilder.build(SAXBuilder.java:884)
+2023-01-07 20:01:44,883 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.deleteEmptyGroups(ConfigFileManager.java:7081)
+2023-01-07 20:01:44,885 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.deleteEmptyGroups(ConfigFileManager.java:7105)
+2023-01-07 20:01:44,887 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.model.ConfigFileManager.createTmpFile(ConfigFileManager.java:2167)
+2023-01-07 20:01:44,889 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createToolChainFolders(ProjectBuilder.java:4240)
+2023-01-07 20:01:44,891 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:921)
+2023-01-07 20:01:44,893 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.ProjectBuilder.createProject(ProjectBuilder.java:563)
+2023-01-07 20:01:44,895 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager.startGenerateCode(MainProjectManager.java:1399)
+2023-01-07 20:01:44,897 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.projectmanager.engine.MainProjectManager$3.onCommandEntered(MainProjectManager.java:238)
+2023-01-07 20:01:44,899 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.components.util.CommandLineManager$3.run(CommandLineManager.java:168)
+2023-01-07 20:01:44,900 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:303)
+2023-01-07 20:01:44,901 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2023-01-07 20:01:44,903 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2023-01-07 20:01:44,904 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2023-01-07 20:01:44,905 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2023-01-07 20:01:44,907 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2023-01-07 20:01:44,908 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+2023-01-07 20:01:44,910 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2023-01-07 20:01:44,913 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2023-01-07 20:01:44,914 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2023-01-07 20:01:44,916 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2023-01-07 20:01:44,917 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2023-01-07 20:01:44,919 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-01-07 20:01:44,919 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2023-01-07 20:13:39,640 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,641 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,641 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,642 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:39,642 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,643 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,643 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,643 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,643 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,643 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,643 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:39,644 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,644 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,644 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,644 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,644 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,644 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,645 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:39,645 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,645 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,645 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,646 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:39,646 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:39,646 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:39,647 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:39,647 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,647 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,647 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,647 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,648 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,648 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,648 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,649 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,649 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,649 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,809 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,810 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,810 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,810 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:39,810 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,811 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,811 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,811 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,812 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,812 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,812 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:39,812 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,812 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,813 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,813 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,813 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,813 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,813 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:39,813 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,813 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,814 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,814 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:39,814 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:39,814 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:39,814 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:39,814 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,814 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,815 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,815 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,815 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,815 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,815 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,815 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,816 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,816 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,832 [INFO] ParamManager:829 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2023-01-07 20:13:39,834 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,834 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,835 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,835 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:39,835 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,836 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,836 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,836 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,836 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,837 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,837 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:39,837 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,838 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,838 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,838 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,838 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,839 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,839 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:39,839 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,840 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,840 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,840 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:39,841 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:39,841 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:39,841 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:39,842 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,842 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,842 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,842 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,843 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,843 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,843 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,843 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,843 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,844 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,875 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,875 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,875 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,876 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:39,876 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,876 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,877 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,877 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,877 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,877 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,877 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:39,878 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,878 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,878 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,878 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,879 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,879 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,879 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:39,879 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,880 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,880 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,880 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:39,880 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:39,881 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:39,881 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:39,881 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,882 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,882 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,882 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,882 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,882 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,882 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,883 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,883 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,883 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,906 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,907 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,907 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:39,908 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:39,908 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,909 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,909 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:39,909 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,910 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,910 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:39,910 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:39,910 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,911 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,911 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:39,912 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,912 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,912 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:39,913 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:39,913 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,913 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,914 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:39,914 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:39,914 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:39,915 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:39,915 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:39,915 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,916 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,916 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,916 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,916 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,916 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,917 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,917 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,917 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:39,917 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:40,023 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:40,023 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:40,023 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:40,024 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:40,024 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:40,024 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:40,025 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:40,025 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:40,025 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:40,025 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:40,026 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:40,026 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:40,027 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:40,027 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:40,027 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:40,028 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:40,028 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:40,028 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:40,028 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:40,028 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:40,029 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:40,029 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:40,029 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:40,030 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:40,030 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:40,030 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:40,031 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:40,031 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:40,031 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:40,031 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:40,031 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:40,031 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:40,032 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:40,032 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:40,032 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:44,615 [INFO] ParamManager:829 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2023-01-07 20:13:47,093 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,093 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,093 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,093 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:47,094 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,094 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,094 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,094 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,094 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,094 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,094 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:47,095 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,095 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,095 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,095 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,095 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,095 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,095 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:47,095 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,096 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,096 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,096 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,096 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,096 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,096 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,096 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,096 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,096 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,096 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,097 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,097 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,097 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,097 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,097 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,097 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,198 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,198 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,198 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,198 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:47,198 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,198 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,198 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:47,199 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,200 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,201 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,201 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,201 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,211 [INFO] ParamManager:829 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2023-01-07 20:13:47,214 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,214 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,214 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,215 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:47,215 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,215 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,215 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,216 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,216 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,216 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,216 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:47,216 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,216 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,216 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,217 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,217 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,217 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,217 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:47,218 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,218 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,218 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,218 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,218 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,219 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,219 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,219 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,219 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,219 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,220 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,220 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,220 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,220 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,220 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,220 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,220 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,233 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,233 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,233 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,234 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:47,234 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,234 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,234 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,234 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,234 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,234 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,234 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:47,234 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,235 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,235 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,235 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,235 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,235 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,235 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:47,235 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,235 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,235 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,236 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,236 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,236 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,236 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,236 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,236 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,236 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,236 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,236 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,236 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,237 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,237 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,237 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,237 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,244 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,244 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,244 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,245 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:47,245 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,245 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,245 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,245 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,245 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,245 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,245 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:47,246 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,246 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,246 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,246 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,246 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,246 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,246 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:47,246 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,247 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,247 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,247 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,247 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,247 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,247 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,247 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,247 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,248 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,248 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,248 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,248 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,248 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,248 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,248 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,248 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,299 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,299 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,300 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:47,300 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:47,300 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,300 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,300 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:47,300 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,301 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,301 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:47,301 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:47,301 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,301 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,302 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:47,302 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,302 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,303 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:47,303 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:47,303 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,303 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,304 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:47,304 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,304 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:47,304 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,304 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:47,305 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,305 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,305 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,305 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,306 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,306 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,306 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,306 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,306 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:47,307 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:57,871 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:57,871 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:57,871 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjCustomJjSPI
+2023-01-07 20:13:57,872 [INFO] Middleware:613 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition success for : (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC)
+2023-01-07 20:13:57,872 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:57,872 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:57,872 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjCustomJjSPI | SEMBoardOoPartJjLCDJjCustomJjFMC))
+2023-01-07 20:13:57,872 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:57,872 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:57,872 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjILI9341JjSPI
+2023-01-07 20:13:57,872 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC)
+2023-01-07 20:13:57,872 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:57,872 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:57,873 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjILI9341JjSPI | SEMBoardOoPartJjLCDJjILI9341JjFMC))
+2023-01-07 20:13:57,873 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD BUS IO driver check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:57,873 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD CS Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:57,873 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD DCX Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI
+2023-01-07 20:13:57,873 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD RESET Pin check condition failed for : SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC
+2023-01-07 20:13:57,873 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE Pin check condition failed for : (SEMDISPLAYCcTEOoSrcJjLCDJjTEJjPin & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:57,873 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE VSync Timer check condition failed for : (SEMDISPLAYCcTEOoSrcJjHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:57,874 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : LCD TE HSync Timer check condition failed for : (SEMDISPLAYCcUseOoHWJjTimer & (SEMBoardOoPartJjLCDJjST7789VJjSPI | SEMBoardOoPartJjLCDJjST7789VJjFMC))
+2023-01-07 20:13:57,874 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:57,874 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjCustomJjSPI
+2023-01-07 20:13:57,874 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory BUS IO driver check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:57,874 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Memory CS Pin check condition failed for : SEMBoardOoPartJjMemoryJjMX25L6433FJjSPI
+2023-01-07 20:13:57,874 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:57,874 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Center Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:57,874 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:57,874 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Left Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:57,874 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:57,874 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Down Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:57,875 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:57,875 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Right Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:57,875 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:57,875 [INFO] Middleware:608 - instanceName : STMicroelectronics.X-CUBE-DISPLAY.2.2.0 bspName : Key Up Pin check condition failed for : s_joystick_selected
+2023-01-07 20:13:59,819 [INFO] ParamManager:829 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2023-01-07 20:17:39,227 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,227 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,261 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,261 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,262 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,262 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,281 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,281 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,282 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,282 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,301 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,301 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,302 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,302 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,365 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,365 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,374 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,374 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,379 [WARN] IP:2111 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-01-07 20:17:39,380 [WARN] IP:2111 - Analog_Filter not found: check if there is a RefParameter without a condition.

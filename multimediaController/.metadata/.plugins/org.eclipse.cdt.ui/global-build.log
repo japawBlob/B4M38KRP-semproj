@@ -1,85 +1,234 @@
-14:48:57 **** Build of configuration Debug for project STM324xG_EVAL ****
+08:13:41 **** Incremental Build of configuration Debug for project whaat ****
 make -j8 all 
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Utilities/Log/lcd_log.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/Utilities/lcd_log.d" -MT"Example/Utilities/lcd_log.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/Utilities/lcd_log.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/eeprom.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/eeprom.d" -MT"Example/User/eeprom.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/eeprom.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/joystick.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/joystick.d" -MT"Example/User/joystick.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/joystick.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/lcd.d" -MT"Example/User/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/lcd.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/log.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/log.d" -MT"Example/User/log.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/log.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/main.d" -MT"Example/User/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/main.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/sd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/sd.d" -MT"Example/User/sd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/sd.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/stm32f4xx_it.d" -MT"Example/User/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/stm32f4xx_it.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/touchscreen.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/touchscreen.d" -MT"Example/User/touchscreen.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/touchscreen.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/ts_calibration.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Example/User/ts_calibration.d" -MT"Example/User/ts_calibration.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/ts_calibration.o"
-arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Example/SW4STM32/startup_stm32f407xx.d" -MT"Example/SW4STM32/startup_stm32f407xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/SW4STM32/startup_stm32f407xx.o" "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/SW4STM32/startup_stm32f407xx.s"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dcmi.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dcmi.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dcmi.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_i2c.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sd.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sd.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sram.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sram.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_sram.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_fsmc.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_fsmc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_fsmc.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_sdmmc.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_sdmmc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_sdmmc.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/CMSIS/system_stm32f4xx.d" -MT"Drivers/CMSIS/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/CMSIS/system_stm32f4xx.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval_sd.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.d" -MT"Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/Components/ili9325/ili9325.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/Components/ili9325.d" -MT"Drivers/BSP/Components/ili9325.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Components/ili9325.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Drivers/BSP/Components/stmpe811/stmpe811.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"Drivers/BSP/Components/stmpe811.d" -MT"Drivers/BSP/Components/stmpe811.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/Components/stmpe811.o"
-arm-none-eabi-gcc "C:/ST/Repository/STM32Cube_FW_F4_V1.27.1/Projects/STM324xG_EVAL/Examples/BSP/SW4STM32/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_STM324xG_EVAL -c -I../../../Inc -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/BSP/STM324xG_EVAL -I../../../../../../../Drivers/BSP/Components/ili9325 -I../../../../../../../Drivers/BSP/Components/stmpe811 -I../../../../../../../Drivers/BSP/Components/Common -I../../../../../../../Utilities/Log -I../../../../../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-unused-variable -Wno-pointer-sign -Wno-main -Wno-format -Wno-address -Wno-unused-but-set-variable -Wno-strict-aliasing -Wno-parentheses -Wno-missing-braces -fstack-usage -MMD -MP -MF"syscalls.d" -MT"syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "syscalls.o"
-arm-none-eabi-gcc -o "STM324xG_EVAL.elf" @"objects.list"   -mcpu=cortex-m4 -T"../STM32F407IGHx_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM324xG_EVAL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: STM324xG_EVAL.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I"C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:177:5: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  177 |     USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:141:11: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
+  141 |  uint32_t last_print = 0, now = 0;
+      |           ^~~~~~~~~~
+arm-none-eabi-gcc -o "whaat.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\whaat\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="whaat.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: whaat.elf
  
-arm-none-eabi-size   STM324xG_EVAL.elf 
-arm-none-eabi-objdump -h -S  STM324xG_EVAL.elf  > "STM324xG_EVAL.list"
-arm-none-eabi-objcopy  -O binary  STM324xG_EVAL.elf  "STM324xG_EVAL.bin"
+arm-none-eabi-size   whaat.elf 
+arm-none-eabi-objdump -h -S  whaat.elf  > "whaat.list"
    text	   data	    bss	    dec	    hex	filename
-  57052	    712	  22928	  80692	  13b34	STM324xG_EVAL.elf
+  48060	    372	   5428	  53860	   d264	whaat.elf
 Finished building: default.size.stdout
  
-Finished building: STM324xG_EVAL.bin
+Finished building: whaat.list
  
-Finished building: STM324xG_EVAL.list
- 
-14:53:27 **** Incremental Build of configuration Debug for project STM324xG_EVAL ****
+08:14:55 **** Incremental Build of configuration Debug for project whaat ****
 make -j8 all 
-arm-none-eabi-size   STM324xG_EVAL.elf 
+arm-none-eabi-size   whaat.elf 
    text	   data	    bss	    dec	    hex	filename
-  57052	    712	  22928	  80692	  13b34	STM324xG_EVAL.elf
+  48060	    372	   5428	  53860	   d264	whaat.elf
 Finished building: default.size.stdout
  
-14:53:35 **** Incremental Build of configuration Debug for project STM324xG_EVAL ****
+08:15:06 **** Incremental Build of configuration Debug for project whaat ****
 make -j8 all 
-arm-none-eabi-size   STM324xG_EVAL.elf 
+arm-none-eabi-size   whaat.elf 
    text	   data	    bss	    dec	    hex	filename
-  57052	    712	  22928	  80692	  13b34	STM324xG_EVAL.elf
+  48060	    372	   5428	  53860	   d264	whaat.elf
 Finished building: default.size.stdout
  
-14:53:49 **** Incremental Build of configuration Debug for project STM324xG_EVAL ****
+08:17:14 **** Incremental Build of configuration Debug for project whaat ****
 make -j8 all 
-arm-none-eabi-size   STM324xG_EVAL.elf 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I"C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:177:5: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  177 |     USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:141:11: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
+  141 |  uint32_t last_print = 0, now = 0;
+      |           ^~~~~~~~~~
+arm-none-eabi-gcc -o "whaat.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\whaat\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="whaat.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: whaat.elf
+ 
+arm-none-eabi-size   whaat.elf 
+arm-none-eabi-objdump -h -S  whaat.elf  > "whaat.list"
    text	   data	    bss	    dec	    hex	filename
-  57052	    712	  22928	  80692	  13b34	STM324xG_EVAL.elf
+  48016	    372	   5428	  53816	   d238	whaat.elf
 Finished building: default.size.stdout
  
-14:53:50 **** Build of configuration Debug for project usb_device ****
+Finished building: whaat.list
+ 
+08:19:50 **** Incremental Build of configuration Debug for project whaat ****
 make -j8 all 
-arm-none-eabi-size   usb_device.elf 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I"C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:177:5: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  177 |     USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:211:18: error: 'LCD_COLOR_WHITE_RED' undeclared (first use in this function); did you mean 'LCD_COLOR_WHITE'?
+  211 |    BSP_LCD_Clear(LCD_COLOR_WHITE_RED);
+      |                  ^~~~~~~~~~~~~~~~~~~
+      |                  LCD_COLOR_WHITE
+../Core/Src/main.c:211:18: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:141:11: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
+  141 |  uint32_t last_print = 0, now = 0;
+      |           ^~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+08:20:19 **** Incremental Build of configuration Debug for project whaat ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I"C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:177:5: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  177 |     USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:141:11: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
+  141 |  uint32_t last_print = 0, now = 0;
+      |           ^~~~~~~~~~
+arm-none-eabi-gcc -o "whaat.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\whaat\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="whaat.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: whaat.elf
+ 
+arm-none-eabi-size   whaat.elf 
+arm-none-eabi-objdump -h -S  whaat.elf  > "whaat.list"
    text	   data	    bss	    dec	    hex	filename
-  29168	    280	   4208	  33656	   8378	usb_device.elf
+  48040	    372	   5428	  53840	   d250	whaat.elf
 Finished building: default.size.stdout
  
-14:54:39 **** Incremental Build of configuration Debug for project STM324xG_EVAL ****
+Finished building: whaat.list
+ 
+08:20:56 **** Incremental Build of configuration Debug for project whaat ****
 make -j8 all 
-arm-none-eabi-size   STM324xG_EVAL.elf 
+arm-none-eabi-size   whaat.elf 
    text	   data	    bss	    dec	    hex	filename
-  57052	    712	  22928	  80692	  13b34	STM324xG_EVAL.elf
+  48040	    372	   5428	  53840	   d250	whaat.elf
 Finished building: default.size.stdout
+ 
+08:23:39 **** Incremental Build of configuration Debug for project whaat ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I"C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:177:5: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  177 |     USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:141:11: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
+  141 |  uint32_t last_print = 0, now = 0;
+      |           ^~~~~~~~~~
+arm-none-eabi-gcc -o "whaat.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\whaat\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="whaat.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: whaat.elf
+ 
+arm-none-eabi-size   whaat.elf 
+arm-none-eabi-objdump -h -S  whaat.elf  > "whaat.list"
+   text	   data	    bss	    dec	    hex	filename
+  48024	    372	   5428	  53824	   d240	whaat.elf
+Finished building: default.size.stdout
+ 
+Finished building: whaat.list
+ 
+08:24:03 **** Incremental Build of configuration Debug for project whaat ****
+make -j8 all 
+arm-none-eabi-size   whaat.elf 
+   text	   data	    bss	    dec	    hex	filename
+  48024	    372	   5428	  53824	   d240	whaat.elf
+Finished building: default.size.stdout
+ 
+08:25:01 **** Incremental Build of configuration Debug for project whaat ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I"C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:177:5: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  177 |     USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:141:11: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
+  141 |  uint32_t last_print = 0, now = 0;
+      |           ^~~~~~~~~~
+arm-none-eabi-gcc -o "whaat.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\whaat\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="whaat.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: whaat.elf
+ 
+arm-none-eabi-size   whaat.elf 
+arm-none-eabi-objdump -h -S  whaat.elf  > "whaat.list"
+   text	   data	    bss	    dec	    hex	filename
+  48000	    372	   5428	  53800	   d228	whaat.elf
+Finished building: default.size.stdout
+ 
+Finished building: whaat.list
+ 
+08:25:55 **** Incremental Build of configuration Debug for project whaat ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I"C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:178:5: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  178 |     USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:142:11: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
+  142 |  uint32_t last_print = 0, now = 0;
+      |           ^~~~~~~~~~
+arm-none-eabi-gcc -o "whaat.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\whaat\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="whaat.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: whaat.elf
+ 
+arm-none-eabi-size   whaat.elf 
+arm-none-eabi-objdump -h -S  whaat.elf  > "whaat.list"
+   text	   data	    bss	    dec	    hex	filename
+  48020	    372	   5428	  53820	   d23c	whaat.elf
+Finished building: default.size.stdout
+ 
+Finished building: whaat.list
+ 
+08:27:48 **** Incremental Build of configuration Debug for project whaat ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I"C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:5: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  181 |     USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:145:11: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
+  145 |  uint32_t last_print = 0, now = 0;
+      |           ^~~~~~~~~~
+arm-none-eabi-gcc -o "whaat.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\whaat\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="whaat.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: whaat.elf
+ 
+arm-none-eabi-size   whaat.elf 
+arm-none-eabi-objdump -h -S  whaat.elf  > "whaat.list"
+   text	   data	    bss	    dec	    hex	filename
+  48020	    372	   5428	  53820	   d23c	whaat.elf
+Finished building: default.size.stdout
+ 
+Finished building: whaat.list
+ 
+08:28:47 **** Incremental Build of configuration Debug for project whaat ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I"C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:5: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  181 |     USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:145:11: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
+  145 |  uint32_t last_print = 0, now = 0;
+      |           ^~~~~~~~~~
+arm-none-eabi-gcc -o "whaat.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\whaat\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="whaat.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: whaat.elf
+ 
+arm-none-eabi-size   whaat.elf 
+arm-none-eabi-objdump -h -S  whaat.elf  > "whaat.list"
+   text	   data	    bss	    dec	    hex	filename
+  48088	    372	   5428	  53888	   d280	whaat.elf
+Finished building: default.size.stdout
+ 
+Finished building: whaat.list
+ 
+08:30:23 **** Incremental Build of configuration Debug for project whaat ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -I"C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:181:5: warning: implicit declaration of function 'USBD_HID_SendReport' [-Wimplicit-function-declaration]
+  181 |     USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+      |     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:145:11: warning: variable 'last_print' set but not used [-Wunused-but-set-variable]
+  145 |  uint32_t last_print = 0, now = 0;
+      |           ^~~~~~~~~~
+arm-none-eabi-gcc -o "whaat.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Public\B4M38KRP-semproj\multimediaController\whaat\STM32F407IGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="whaat.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: whaat.elf
+ 
+arm-none-eabi-size   whaat.elf 
+arm-none-eabi-objdump -h -S  whaat.elf  > "whaat.list"
+   text	   data	    bss	    dec	    hex	filename
+  48088	    372	   5428	  53888	   d280	whaat.elf
+Finished building: default.size.stdout
+ 
+Finished building: whaat.list
  

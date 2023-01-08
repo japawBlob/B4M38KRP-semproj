@@ -46,18 +46,18 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/stmpe811.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/../Common/ts.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/../Common/io.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../Components/ili9325/ili9325.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../Components/ili9325/../Common/lcd.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../../../Utilities/Fonts/fonts.h \
- /home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.h \
+ C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.h \
+ C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.h \
+ C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.h \
+ c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\drivers\bsp\components\stmpe811\stmpe811.h \
+ c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\drivers\bsp\components\common\ts.h \
+ c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\drivers\bsp\components\common\io.h \
+ C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.h \
+ C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.h \
+ c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\drivers\bsp\components\ili9325\ili9325.h \
+ c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\drivers\bsp\components\common\lcd.h \
+ c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\utilities\fonts\fonts.h \
+ C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
@@ -108,18 +108,18 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o: \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/stmpe811.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/../Common/ts.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../Components/stmpe811/../Common/io.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../Components/ili9325/ili9325.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../Components/ili9325/../Common/lcd.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/../../../Utilities/Fonts/fonts.h:
-/home/japaw/Codes/CubeIde/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.h:
+C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.h:
+C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.h:
+C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval.h:
+c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\drivers\bsp\components\stmpe811\stmpe811.h:
+c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\drivers\bsp\components\common\ts.h:
+c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\drivers\bsp\components\common\io.h:
+C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_io.h:
+C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_lcd.h:
+c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\drivers\bsp\components\ili9325\ili9325.h:
+c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\drivers\bsp\components\common\lcd.h:
+c:\users\public\b4m38krp-semproj\multimediacontroller\whaat\utilities\fonts\fonts.h:
+C:/Users/Public/B4M38KRP-semproj/multimediaController/whaat/Drivers/BSP/STM324xG_EVAL/stm324xg_eval_eeprom.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
