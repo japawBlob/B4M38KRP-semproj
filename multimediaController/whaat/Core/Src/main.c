@@ -85,6 +85,17 @@ scroll_wheel_t scroll_wheel = {2,0};
 typedef struct
 {
 	uint8_t REPORT_ID;
+	uint8_t buttons;
+	uint8_t x;
+	uint8_t y;
+	uint8_t wheel;
+}mouse_t;
+
+mouse_t mouse = {2,0,0,0,0};
+
+typedef struct
+{
+	uint8_t REPORT_ID;
 	uint8_t volume;
 }volume_t;
 
@@ -236,17 +247,15 @@ int main(void)
 			BSP_LCD_SetFont(&Font24);
 			BSP_LCD_DisplayStringAt(0, 30, (uint8_t *)"Scroll control", CENTER_MODE);
 			if (rot_count != TIM3->CNT) {
-//				scroll_wheel.weee = TIM3->CNT-rot_count;
-//				USBD_HID_SendReport(&hUsbDeviceFS,&scroll_wheel,sizeof(scroll_wheel));
-//				rot_count = TIM3->CNT;
-
-
-				volume_message.volume = 0b00100000;
-				USBD_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
-				HAL_Delay(50);
-				volume_message.volume = 0;
-				USBD_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
+				mouse.wheel = TIM3->CNT-rot_count;
+				USBD_HID_SendReport(&hUsbDeviceFS,&mouse,sizeof(mouse));
 				rot_count = TIM3->CNT;
+//				volume_message.volume = 0b00100000;
+//				USBD_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
+//				HAL_Delay(50);
+//				volume_message.volume = 0;
+//				USBD_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
+//				rot_count = TIM3->CNT;
 			}
 
 		}

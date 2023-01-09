@@ -252,20 +252,39 @@ __ALIGN_BEGIN static uint8_t HID_MOUSE_ReportDesc[HID_MOUSE_REPORT_DESC_SIZE] __
     0x29, 0x85,                    //   USAGE_MAXIMUM (Keyboard Application)
     0x81, 0x00,                    //   INPUT (Data,Ary,Abs)
     0xc0,                           // END_COLLECTION
-    0x05, 0x01,                    // USAGE_PAGE (Generic Desktop)
-    0x09, 0x02,                    // USAGE (Mouse)
-    0xa1, 0x01,                    // COLLECTION (Application)
-    0x09, 0x01,                    //   USAGE (Pointer)
-    0xa1, 0x00,                    //   COLLECTION (Physical)
-    0x85, 0x02,                    //     REPORT_ID (2)
-    0x09, 0x38,                    //     USAGE (Wheel)
-    0x15, 0x81,                    //     LOGICAL_MINIMUM (-127)
-    0x25, 0x7f,                    //     LOGICAL_MAXIMUM (127)
-    0x75, 0x08,                    //     REPORT_SIZE (8)
-    0x95, 0x01,                    //     REPORT_COUNT (1)
-    0x81, 0x06,                    //     INPUT (Data,Var,Rel)
-    0xc0,                          //     END_COLLECTION
-    0xc0,                           // END_COLLECTION
+	0x05, 0x01,         /*  Usage Page (Desktop),               */
+	0x09, 0x02,         /*  Usage (Mouse),                      */
+	0xA1, 0x01,         /*  Collection (Application),           */
+	0x85, 0x02,				//	REPORT_ID(2)
+	0x09, 0x01,         /*      Usage (Pointer),                */
+	0xA1, 0x00,         /*      Collection (Physical),          */
+	0x05, 0x09,         /*          Usage Page (Button),        */
+	0x19, 0x01,         /*          Usage Minimum (01h),        */
+	0x29, 0x06,         /*          Usage Maximum (06h),        */
+	0x15, 0x00,         /*          Logical Minimum (0),        */
+	0x25, 0x01,         /*          Logical Maximum (1),        */
+	0x95, 0x06,         /*          Report Count (6),           */
+	0x75, 0x01,         /*          Report Size (1),            */
+	0x81, 0x02,         /*          Input (Variable),           */
+	0x95, 0x02,         /*          Report Count (2),           */
+	0x75, 0x01,         /*          Report Size (1),            */
+	0x81, 0x01,         /*          Input (Constant),           */
+	0x05, 0x01,         /*          Usage Page (Desktop),       */
+	0x09, 0x30,         /*          Usage (X),                  */
+	0x09, 0x31,         /*          Usage (Y),                  */
+	0x15, 0x81,   		/*          Logical Minimum (-127),   */
+	0x25, 0x7f,   		/*          Logical Maximum (127),    */
+	0x75, 0x08,         /*          Report Size (8),           */
+	0x95, 0x02,         /*          Report Count (2),           */
+	0x81, 0x06,         /*          Input (Variable, Relative), */
+	0x09, 0x38,         /*          Usage (Wheel),              */
+	0x15, 0x81,         /*          Logical Minimum (-127),     */
+	0x25, 0x7F,         /*          Logical Maximum (127),      */
+	0x75, 0x08,         /*          Report Size (8),            */
+	0x95, 0x01,         /*          Report Count (1),           */
+	0x81, 0x06,         /*          Input (Variable, Relative), */
+	0xC0,               /*      End Collection,                 */
+	0xC0,                /*  End Collection                      */
 	0x05, 0x0C,         /*  Usage Page (Consumer),              */
 	0x09, 0x01,         /*  Usage (Consumer Control),           */
 	0xA1, 0x01,         /*  Collection (Application),           */
