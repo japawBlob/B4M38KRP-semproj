@@ -1,4 +1,4 @@
-16:15:29 **** Clean-only build of configuration Debug for project whaat ****
+22:32:31 **** Clean-only build of configuration Debug for project whaat ****
 make -j8 clean 
 rm -rf ./USB_DEVICE/Target/usbd_conf.d ./USB_DEVICE/Target/usbd_conf.o ./USB_DEVICE/Target/usbd_conf.su
 rm -rf ./USB_DEVICE/App/usb_device.d ./USB_DEVICE/App/usb_device.o ./USB_DEVICE/App/usb_device.su ./USB_DEVICE/App/usbd_desc.d ./USB_DEVICE/App/usbd_desc.o ./USB_DEVICE/App/usbd_desc.su
@@ -38,5 +38,5 @@ rm -rf ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f4
 rm -rf default.size.stdout whaat.elf whaat.list whaat.map
  
 
-16:15:29 Build Finished. 0 errors, 0 warnings. (took 913ms)
+22:32:31 Build Finished. 0 errors, 0 warnings. (took 423ms)
 
