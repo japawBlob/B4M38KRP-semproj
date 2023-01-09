@@ -77,29 +77,21 @@ subKeyBoard keyBoardHIDsub = {1,0,0,0,0,0,0,0,0};
 typedef struct
 {
 	uint8_t REPORT_ID;
-	uint8_t weee;
-}scroll_wheel_t;
-
-scroll_wheel_t scroll_wheel = {2,0};
-
-typedef struct
-{
-	uint8_t REPORT_ID;
 	uint8_t buttons;
 	uint8_t x;
 	uint8_t y;
 	uint8_t wheel;
 }mouse_t;
 
-mouse_t mouse = {2,0,0,0,0};
+mouse_t mouse_message = {2,0,0,0,0};
 
 typedef struct
 {
 	uint8_t REPORT_ID;
 	uint8_t volume;
-}volume_t;
+} multimedia_t;
 
-volume_t volume_message = {3,0};
+multimedia_t volume_message = {3,0};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -164,16 +156,15 @@ int main(void)
 	BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
 	BSP_LCD_SetFont(&Font24);
 	BSP_LCD_DisplayStringAt(0, 0, (uint8_t *)"LCD", CENTER_MODE);
-
+	BSP_LCD_DisplayStringAt(0, 30, (uint8_t *)"Volume control", CENTER_MODE);
 	BSP_PB_Init(BUTTON_KEY, BUTTON_MODE_GPIO);
 	BSP_LED_Init(LED1);
 
 
 	HAL_TIM_Encoder_Start_IT(&htim3, TIM_CHANNEL_ALL);
-	uint32_t last_print = 0, now = 0;
-	uint32_t rot_count = 0;
-	now = HAL_GetTick();
+	HAL_GetTick();
 	TIM3->CNT = 30000;
+	uint32_t rot_count = TIM3->CNT;
 
 	/* USER CODE END 2 */
 
@@ -184,78 +175,45 @@ int main(void)
 	{
 		if(BSP_PB_GetState(BUTTON_KEY) == RESET){
 			BSP_LED_On(LED1);
+			while(BSP_PB_GetState(BUTTON_KEY) == RESET) continue;
+			usage_switch = !usage_switch;
+			if(usage_switch == 0) {
+				BSP_LCD_DisplayStringAt(0, 30, (uint8_t *)"Volume control", CENTER_MODE);
+			} else {
+				BSP_LCD_DisplayStringAt(0, 30, (uint8_t *)"Scroll control", CENTER_MODE);
+			}
 		} else {
 			BSP_LED_Off(LED1);
 		}
-		if(BSP_PB_GetState(BUTTON_KEY) == RESET){
-			while(BSP_PB_GetState(BUTTON_KEY) == RESET) continue;
-			usage_switch = !usage_switch;
-		}
-		now = HAL_GetTick();
-
-		/// VOLUME USAGE
+		/// VOLUME control
 		if(usage_switch == 0) {
 			if (rot_count != TIM3->CNT) {
 				if (rot_count > TIM3->CNT) {
-					keyBoardHIDsub.KEYCODE1=0x04;  // Press A key
-					keyBoardHIDsub.KEYCODE2=0x05;  // Press B key
-					keyBoardHIDsub.KEYCODE3=0x06;  // Press C key
-					keyBoardHIDsub.KEYCODE4=0x80;	 // Volume up - only works on linux
+					volume_message.volume = 0b0010000;		// increment volume
 				} else {
-					keyBoardHIDsub.KEYCODE1=0x07;  // Press A key
-					keyBoardHIDsub.KEYCODE2=0x08;  // Press B key
-					keyBoardHIDsub.KEYCODE3=0x09;  // Press C key
-					keyBoardHIDsub.KEYCODE4=0x81;	 // Volume down - only works on linux
+					volume_message.volume = 0b0100000;		// decrement volume
 				}
-				USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-				HAL_Delay(50); 		       // Press all key for 50 milliseconds
-				//keyBoardHIDsub.MODIFIER=0x00;  // To release shift key
-				keyBoardHIDsub.KEYCODE1=0x00;  // Release A key
-				keyBoardHIDsub.KEYCODE2=0x00;  // Release B key
-				keyBoardHIDsub.KEYCODE3=0x00;  // Release C key
-				keyBoardHIDsub.KEYCODE4=0x00;	 // Clear buffer from volume up
-				USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
+				USBD_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
+				HAL_Delay(5);
+				volume_message.volume = 0b00000000;
+				USBD_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
 				rot_count = TIM3->CNT;
 			}
-			last_print = now;
-			//}
 			if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) == 0){
-				//keyBoardHIDsub.MODIFIER=0x02;  // To press shift key
-				keyBoardHIDsub.KEYCODE1=0x04;  // Press A key
-				keyBoardHIDsub.KEYCODE2=0x05;  // Press B key
-				keyBoardHIDsub.KEYCODE3=0x06;  // Press C key
-				keyBoardHIDsub.KEYCODE4=0x80;	 // Volume up - only works on linux
-				USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-				HAL_Delay(50); 		       // Press all key for 50 milliseconds
-				//keyBoardHIDsub.MODIFIER=0x00;  // To release shift key
-				keyBoardHIDsub.KEYCODE1=0x00;  // Release A key
-				keyBoardHIDsub.KEYCODE2=0x00;  // Release B key
-				keyBoardHIDsub.KEYCODE3=0x00;  // Release C key
-				keyBoardHIDsub.KEYCODE4=0x00;	 // Clear buffer from volume up
-				USBD_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-				HAL_Delay(1000); 	       // Repeat this task on every 1 second
+				while(HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) == 0) continue;
+				volume_message.volume = 0b1000000;			// mute
+				USBD_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
+				HAL_Delay(10);
+				volume_message.volume = 0b00000000;
+				USBD_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
 			}
-			// BSP_LCD_Clear(LCD_COLOR_BLUE);
-			BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
-			BSP_LCD_SetFont(&Font24);
-			BSP_LCD_DisplayStringAt(0, 30, (uint8_t *)"Volume control", CENTER_MODE);
-
 		}
+		// SCROLL control
 		if(usage_switch == 1){
-			// BSP_LCD_Clear(LCD_COLOR_RED);
-			BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
-			BSP_LCD_SetFont(&Font24);
-			BSP_LCD_DisplayStringAt(0, 30, (uint8_t *)"Scroll control", CENTER_MODE);
 			if (rot_count != TIM3->CNT) {
-				mouse.wheel = TIM3->CNT-rot_count;
-				USBD_HID_SendReport(&hUsbDeviceFS,&mouse,sizeof(mouse));
+				mouse_message.wheel = TIM3->CNT-rot_count;
+				USBD_HID_SendReport(&hUsbDeviceFS,&mouse_message,sizeof(mouse_message));
 				rot_count = TIM3->CNT;
-//				volume_message.volume = 0b00100000;
-//				USBD_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
-//				HAL_Delay(50);
-//				volume_message.volume = 0;
-//				USBD_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
-//				rot_count = TIM3->CNT;
 			}
 
 		}
