@@ -61,7 +61,6 @@ extern USBD_HandleTypeDef hUsbDeviceFS;
 
 typedef struct
 {
-	uint8_t REPORT_ID;
 	uint8_t MODIFIER;
 	uint8_t RESERVED;
 	uint8_t KEYCODE1;
@@ -72,7 +71,7 @@ typedef struct
 	uint8_t KEYCODE6;
 }subKeyBoard;
 
-subKeyBoard keyBoardHIDsub = {1,0,0,0,0,0,0,0,0};
+subKeyBoard keyBoardHIDsub = {0,0,0,0,0,0,0,0};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
