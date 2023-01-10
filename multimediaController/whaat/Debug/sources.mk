@@ -52,7 +52,7 @@ Drivers/BSP/Components/ts3510 \
 Drivers/BSP/Components/wm8994 \
 Drivers/BSP/STM324xG_EVAL \
 Drivers/STM32F4xx_HAL_Driver/Src \
-Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src \
+Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src \
 Middlewares/ST/STM32_USB_Device_Library/Core/Src \
 USB_DEVICE/App \
 USB_DEVICE/Target \

@@ -37,6 +37,7 @@ extern "C" {
 #include "stm324xg_eval_io.h"
 #include "stm324xg_eval_lcd.h"
 #include "stm324xg_eval_eeprom.h"
+#include "caps_lock.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

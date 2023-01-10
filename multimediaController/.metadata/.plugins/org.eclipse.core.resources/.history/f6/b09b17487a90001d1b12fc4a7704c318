@@ -1,0 +1,8 @@
+#ifndef __CAPS_LOCK_H
+#define __STM324xG_EVAL_H
+
+static uint8_t caps_lock = 0;
+
+void blob(){
+
+}

@@ -1,0 +1,5 @@
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c:97:9:BSP_TS_Init	24	static
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c:127:9:BSP_TS_ITConfig	8	static
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c:139:9:BSP_TS_ITGetStatus	8	static
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c:150:9:BSP_TS_GetState	32	static
+../Drivers/BSP/STM324xG_EVAL/stm324xg_eval_ts.c:198:6:BSP_TS_ITClear	8	static
