@@ -1,2 +1,0 @@
-../Core/Src/caps_lock.c:3:9:get_caps	4	static
-../Core/Src/caps_lock.c:6:6:set_caps	16	static
