@@ -35,41 +35,41 @@ The development for this is much less straightforward, and I would certainly nee
 
 # Final report
 
-The implemented device is multimedia controler. As of today my Raspberry Pi Pico W still didn't arrive, so that idea was not further developed. 
+The implemented device is a multimedia controller. As of today, my Raspberry Pi Pico W still hasn't arrived, so that idea was not further developed. 
 
 Implemented device consists of board STM3240G-EVAL and connected rotary encoder.
 
-My implementation of multimedia controler is able to do following actions via USB. 
+My implementation of multimedia controller is able to do the following actions via USB. 
 - modify volume
 - mute sound
 - scroll (like with mouse scroll wheel)
 - turn on and off caps lock
 - display caps lock state on display
 
-Device has two main operating modes. Named **Volume control** and **Scroll control**. We can switch between theese modes by pressing built in user button.
+The device has two main operating modes. Named **Volume control** and **Scroll control**. We can switch between these modes by pressing built-in user button.
 
 In **Volume control**:
-- rotary encoder is used for increasing and decreasing the volume of connected device
+- rotary encoder is used for increasing and decreasing the volume of the connected device
 - pressing the rotary encoder button mutes the sound
 
 In **Scroll control**:
 - rotary encoder is used for scrolling
 - pressing the rotary encoder button toggles the caps lock
 
-LCD display is active during both modes. Displaying which mode is currently active and the state of caps lock.
+The LCD is active during both modes. Displaying which mode is currently active and the state of caps lock.
 
 ## Implementation 
 
-Final implementing of defined behaviour was the easiest part. The most difficult one was to satisfy Windows device recognition, and getting the BSP driver to work. 
+The final implementation of the defined behaviour was the easiest part. The most difficult one was to satisfy Windows device recognition and getting the BSP driver to work. 
 
-I started by creating project via the provided instructions and was able to send basic mouse commands. This project I was able to transform into keyboard, addach rotary encoder and send volume up and volume down commands to the PC. Unfortunately these volume controlls defined in Keyboard page are Unix only. For Windows I would need to implement volume control functionality from Consumer device page.
+I started by creating a project via the provided instructions and was able to send basic mouse commands. In this project, I was able to transform into keyboard, attach rotary encoder and send volume up and volume down commands to the PC. Unfortunately, these volume controls defined in Keyboard page are Unix only. For Windows, I would need to implement volume control functionality from Consumer device page.
 
-But first I decided to implement LCD functionality, which I tought would be work for few hours at most. After one manday I was able to make the LCD work properly. I made the BSD library work by initialising the board I/O to defalut, which generated needed HAL drivers, then inserted BSD driver and remove redundant files like audio. 
+But first, I decided to implement LCD functionality, which I thought would be work for a few hours at most. After one man-day, I was able to make the LCD work properly. I made the BSD library work by initialising the board I/O to default, which generated needed HAL drivers, then inserted the BSD driver and removed redundant files like audio. 
 
-This was followed by implementing increasing and decreading volume. I managed to get volume controls using Consumer device page working on Linux, but Windows had problems again. After few hours of desperate searching I stripped Report descriptor from multimedia keyboard using [hidrd](https://github.com/DIGImend/hidrd) and [usbhid-dump](https://github.com/DIGImend/usbhid-dump) utils. Found out, that their implementation is allmost identical, with the difference, that I used Volume Up and Volume down for multiple data values. This report descriptor worked with Windows as well. 
+This was followed by implementing increasing and decreasing volume. I managed to get volume controls using Consumer device page working on Linux, but Windows had problems again. After a few hours of desperate searching, I stripped Report descriptor from the multimedia keyboard using [hidrd](https://github.com/DIGImend/hidrd) and [usbhid-dump](https://github.com/DIGImend/usbhid-dump) utils. Found out that their implementation is almost identical, with the difference that I used volume up and volume down for multiple data values. This report descriptor worked with Windows without a problem. 
 
-This was followed by implementing scrolling, with simillar progress as previous USB devices. Linux worked fine just with the implementation of wheel, but I needed to add mouse buttons and mouse movement to the report desctiptor in order to convince Windows to accept the scroll messages. 
+This was followed by implementing scrolling, with similar progress as previous USB devices. Linux worked fine just with the implementation of a mouse wheel, but I needed to add mouse buttons and mouse movement to the report descriptor in order to convince Windows to accept the scroll messages. 
 
-Since I also wanded the CAPS LOCK and show the state on LCD, I also added keyboard, which I had implemented earlier to the Report descriptor. For reading out state of CAPS LOCK I read out LED from keyboard. In order to have proper output handler (output from PC perspective, input from USB device perspective), I regenerated the project, with Custom HID Device instead of HID Device option, since Custom HID Device also generates the interrupt handler for incomming messages. 
+Since I also wanted the CAPS LOCK functionality and to show the state on LCD, I also added keyboard, which I had implemented earlier to the Report descriptor. For reading out the state of CAPS LOCK, I read out LED from keyboard. In order to have a proper output handler (output from PC perspective, input from USB device perspective), I regenerated the project with Custom HID Device instead of HID Device option since Custom HID Device also generates the interrupt handler for incoming messages. 
 
-In conclusion - adding BSD drivers for older boards is pain, luckily for newer boards it can be generated by CUBE. Report descriptors on Linux will take anything, as long as it makes sence at least a little bit. Windows is REALLY strict about what will it accept. 
+In conclusion - adding BSD drivers for older boards is a pain. Luckily for newer boards, it can be generated by CUBE. Linux will interpret anything from the Report descriptor as long as it makes sense, at least a little bit. Windows is REALLY strict about what it will accept. 
