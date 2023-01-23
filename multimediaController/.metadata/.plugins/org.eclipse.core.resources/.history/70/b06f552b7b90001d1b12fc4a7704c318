@@ -1,4 +1,0 @@
-#include "caps_lock.h"
-
-uint8_t get_caps ();
-void set_caps ();

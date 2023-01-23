@@ -1,3 +1,16 @@
+# Multimedia controler 
+
+Project located in whaat folder (yes it is dumb name, originally it was only for testin purposes only project, but turnet out being the final one and renaming projects in CUBE IDE is pain:D)
+
+Pins used for rotary encoder:
+B5 - CLK
+B4 - DATA
+B6 - SW
+GND - GND
+APP_V - +
+
+Useful links:
+
 https://www.instructables.com/STM32-As-HID-USB-Keyboard-STM32-Tutorials/
 
 https://eleccelerator.com/tutorial-about-usb-hid-report-descriptors/
@@ -11,19 +24,3 @@ https://stackoverflow.com/questions/72581980/is-there-a-way-to-use-the-usb-hid-t
 https://www.microchip.com/forums/m618147.aspx
 
 https://www.ccsinfo.com/forum/viewtopic.php?t=59253
-
-UBS HID 1.11 28.
-
-Pins used for rotary encoder:
-B5 - CLK
-B4 - DATA
-B6 - SW
-GND - GND
-APP_V - +
-
-HUD - 96 - mute
-
-Descriptors location:
-USBD_FS_DeviceDesc : USB_DEVICE/App/usbd_desc.c
-
-report descriptor : Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c

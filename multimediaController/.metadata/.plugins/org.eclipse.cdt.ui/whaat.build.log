@@ -1,4 +1,4 @@
-01:41:49 **** Clean-only build of configuration Debug for project whaat ****
+17:13:24 **** Clean-only build of configuration Debug for project whaat ****
 make -j8 clean 
 rm -rf ./USB_DEVICE/Target/usbd_conf.d ./USB_DEVICE/Target/usbd_conf.o ./USB_DEVICE/Target/usbd_conf.su
 rm -rf ./USB_DEVICE/App/usb_device.d ./USB_DEVICE/App/usb_device.o ./USB_DEVICE/App/usb_device.su ./USB_DEVICE/App/usbd_custom_hid_if.d ./USB_DEVICE/App/usbd_custom_hid_if.o ./USB_DEVICE/App/usbd_custom_hid_if.su ./USB_DEVICE/App/usbd_desc.d ./USB_DEVICE/App/usbd_desc.o ./USB_DEVICE/App/usbd_desc.su
@@ -38,5 +38,5 @@ rm -rf ./Core/Src/caps_lock.d ./Core/Src/caps_lock.o ./Core/Src/caps_lock.su ./C
 rm -rf default.size.stdout whaat.elf whaat.list whaat.map
  
 
-01:41:49 Build Finished. 0 errors, 0 warnings. (took 404ms)
+17:13:24 Build Finished. 0 errors, 0 warnings. (took 648ms)
 

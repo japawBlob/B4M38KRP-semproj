@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="nInterface"/>
+		<item key="selection" value="HID_MOUSE_REPORT_DESC_SIZE"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="  USBD_CUSTOM_HID_REPORT_DESC_SIZE"/>
+			<item value="req_get_des"/>
+			<item value="HID_MOUSE_REPORT_DESC_SIZE"/>
+			<item value="USB_REQ_GET_"/>
+			<item value="USB_"/>
+			<item value="user"/>
+			<item value="USB_REQ_GET"/>
+			<item value="USB_CUSTOM_HID_CONFIG_DESC_SIZ"/>
+			<item value="USB_REQ_GET_DESCRIPTOR"/>
+			<item value="CUSTOM_HID_REPORT_DESC"/>
+			<item value="report"/>
+			<item value="now"/>
+			<item value="last_print"/>
 			<item value="nInterface"/>
 			<item value="SystemCoreClock"/>
-			<item value="string"/>
-			<item value="desc"/>
-			<item value="skring"/>
 		</list>
 		<list key="replacehistory">
 		</list>

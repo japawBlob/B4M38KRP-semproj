@@ -205,7 +205,7 @@ int main(void)
 				while(HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) == 0) continue;
 				volume_message.volume = 0b1000000;			// mute
 				USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
-				HAL_Delay(10);
+			} else {
 				volume_message.volume = 0b00000000;
 				USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS,&volume_message,sizeof(volume_message));
 			}
@@ -221,7 +221,7 @@ int main(void)
 				while(HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) == 0) continue;
 				keyBoardHIDsub.KEYCODE1 = 0x39;			// CAPS LOCK
 				USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
-				HAL_Delay(10);
+			} else {
 				keyBoardHIDsub.KEYCODE1 = 0;
 				USBD_CUSTOM_HID_SendReport(&hUsbDeviceFS,&keyBoardHIDsub,sizeof(keyBoardHIDsub));
 			}
